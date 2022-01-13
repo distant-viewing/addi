@@ -29,8 +29,8 @@ of the metadata, and (7) an archived version of the Distant Viewing Toolkit.
 A working version of the visualization tool can be found through GitHub pages
 at:
 
-- [FSA-OWI Color Images](https://statsmaths.github.io/addi_project/06_interactive_viz/build/?id=2017877547).
-- [Bain Collection](https://statsmaths.github.io/addi_project/06_interactive_viz/build/?id=2014712029).
+- [FSA-OWI Color Images](https://distant-viewing.github.io/addi/06_interactive_viz/build/?id=2017877547).
+- [Bain Collection](https://distant-viewing.github.io/addi/06_interactive_viz/build/?id=2014712029).
 
 ## Licence
 
