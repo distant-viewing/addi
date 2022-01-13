@@ -1,0 +1,75 @@
+state_name,alpha,fips,status
+Alabama,AL,01,State; counties
+Alaska,AK,02,State; boroughs
+American Samoa,NA,03,(FIPS 5-1 reserved code)
+Arizona,AZ,04,State; counties
+Arkansas,AR,05,State; counties
+California,CA,06,State; counties
+Canal Zone,NA,07,(FIPS 5-1 reserved code)
+Colorado,CO,08,State; counties
+Connecticut,CT,09,State; counties
+Delaware,DE,10,State; counties
+District of Columbia,DC,11,Federal district[4]
+Florida,FL,12,State; counties
+Georgia,GA,13,State; counties
+Guam,NA,14,(FIPS 5-1 reserved code)
+Hawaii,HI,15,State; counties
+Idaho,ID,16,State; counties
+Illinois,IL,17,State; counties
+Indiana,IN,18,State; counties
+Iowa,IA,19,State; counties
+Kansas,KS,20,State; counties
+Kentucky,KY,21,State; counties
+Louisiana,LA,22,State; parishes
+Maine,ME,23,State; counties
+Maryland,MD,24,State; counties
+Massachusetts,MA,25,State; counties
+Michigan,MI,26,State; counties
+Minnesota,MN,27,State; counties
+Mississippi,MS,28,State; counties
+Missouri,MO,29,State; counties
+Montana,MT,30,State; counties
+Nebraska,NE,31,State; counties
+Nevada,NV,32,State; counties
+New Hampshire,NH,33,State; counties
+New Jersey,NJ,34,State; counties
+New Mexico,NM,35,State; counties
+New York,NY,36,State; counties
+North Carolina,NC,37,State; counties
+North Dakota,ND,38,State; counties
+Ohio,OH,39,State; counties
+Oklahoma,OK,40,State; counties
+Oregon,OR,41,State; counties
+Pennsylvania,PA,42,State; counties
+Puerto Rico,NA,43,(FIPS 5-1 reserved code)
+Rhode Island,RI,44,State; counties
+South Carolina,SC,45,State; counties
+South Dakota,SD,46,State; counties
+Tennessee,TN,47,State; counties
+Texas,TX,48,State; counties
+Utah,UT,49,State; counties
+Vermont,VT,50,State; counties
+Virginia,VA,51,State; counties
+Virgin Islands of the U.S.,NA,52,(FIPS 5-1 reserved code)
+Washington,WA,53,State; counties
+West Virginia,WV,54,State; counties
+Wisconsin,WI,55,State; counties
+Wyoming,WY,56,State; counties
+American Samoa,AS,60,Outlying area under U.S. sovereignty
+Federated States of Micronesia,FM,64,Freely Associated State
+Guam,GU,66,Outlying area under U.S. sovereignty
+Johnston Atoll,JA,67,Minor outlying island territory
+Marshall Islands,MH,68,Freely Associated State
+Northern Mariana Islands,MP,69,Outlying area under U.S. sovereignty
+Palau,PW,70,Freely Associated State
+Midway Islands,MI,71,Minor outlying island territory
+Puerto Rico,PR,72,Outlying area under U.S. sovereignty
+U.S. Minor Outlying Islands,UM,74,Minor outlying island territories (aggregated)
+Navassa Island,NI,76,Minor outlying island territory
+Virgin Islands of the U.S.,VI,78,Outlying area under U.S. sovereignty
+Wake Island,WI,79,Minor outlying island territory
+Baker Island,BI,81,Minor outlying island territory
+Howland Island,HI,84,Minor outlying island territory
+Jarvis Island,JI,86,Minor outlying island territory
+Kingman Reef,KR,89,Minor outlying island territory
+Palmyra Atoll,PA,95,Minor outlying island territory

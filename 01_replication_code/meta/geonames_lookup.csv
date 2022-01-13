@@ -1,0 +1,1009 @@
+state_name,place,lon,lat,county
+Alabama,Advance,-85.14993,31.88822,Barbour
+Alabama,Bankhead,-87.29558,33.47961,Tuscaloosa
+Alabama,Colbert,-87.66753,34.74481,Colbert (new)
+Alabama,De Kalb,-85.71969,34.44425,Dekalb
+Alabama,Ensley,-86.89726,33.51462,Jefferson
+Alabama,Falco,-86.61829,31.04907,Covington
+Alabama,Gees Bend,-87.28138,32.07792,Wilcox
+Alabama,Guntersville Dam,-86.3922,34.4236,Marshall
+Alabama,Guntersville Lake,-86.19637,34.40287,Marshall
+Alabama,Havana,-87.62029,32.89513,Hale
+Alabama,Iron City,-85.66413,33.66788,Calhoun
+Alabama,Kymulga,-86.29887,33.334,Talladega
+Alabama,Lewisburg,-86.80555,33.5826,Jefferson
+Alabama,Muscoda,-86.93971,33.37955,Jefferson
+Alabama,Palmerdale,-86.6461,33.73871,Jefferson
+Alabama,Prairie Farms,-85.99107,32.38236,Macon
+Alabama,Sprott,-87.22139,32.6768,Perry
+Alabama,Wheeler,-87.37919,34.7912,Lawrence
+Alabama,Wheeler Dam,-87.38188,34.80623,Lauderdale
+Alabama,Wilson Dam,-87.62522,34.79788,Lauderdale
+Alaska,Aleutian Islands,-173.50056,52.09694,Third Judicicial Dist - No Data
+Alaska,Attu,172.90944,52.9025,Third Judicicial Dist - No Data
+Alaska,Attu Island,172.90944,52.9025,Third Judicicial Dist - No Data
+Alaska,Fairbanks North Star,-147.71639,64.83778,Fourth Judicicial Dist - No Data
+Alaska,Kiska,177.46,51.96417,Third Judicicial Dist - No Data
+Alaska,Nome Census Area,-163.75056,64.83333,Second Judicicial Dist - No Data
+Arizona,Agua Fria,-112.07,34.19222,Yavapai
+Arizona,Allentown,-109.15843,35.29197,Apache
+Arizona,Apache National Forest,-109.78779,34.98369,Apache
+Arizona,Beckers Butte,-110.459,33.80699,Gila
+Arizona,Boriana Mine,-113.91634,34.93806,Mohave
+Arizona,Dennison,-110.90486,35.08668,Coconino
+Arizona,Eleven Mile Corner,-111.56707,32.87951,Pinal
+Arizona,Friendly Corners,-111.55095,32.61784,Pinal
+Arizona,Gleed,-112.64025,35.28977,Yavapai
+Arizona,Grand Canyon,-112.14684,35.95221,Coconino
+Arizona,Inspiration,-110.88345,33.41255,Gila
+Arizona,Paradise,-111.86072,36.49582,Coconino
+Arizona,Petrified Forest National Park,-109.78779,34.98369,Apache
+Arizona,Pinto Creek,-111.00567,33.45866,Gila
+Arizona,Roosevelt Dam,-111.16123,33.67171,Maricopa
+Arizona,Saint David,-110.21424,31.90425,Cochise
+Arizona,Saint Johns,-109.37927,34.51837,Apache
+Arizona,Salt River Valley,-112.31293,33.38115,Maricopa
+Arizona,Solomonsville,-109.63397,32.81257,Graham
+Arizona,Theodore Roosevelt Dam,-111.16123,33.67171,Maricopa
+Arizona,Tonto National Monument,-111.11356,33.64843,Gila
+Arizona,Yampai,-113.20048,35.48944,Yavapai
+Arkansas,Centerville,-93.16879,35.11287,Yell
+Arkansas,Chicot,-91.29397,33.26725,Chicot
+Arkansas,Lake Dick,-91.83874,34.25204,Jefferson
+Arkansas,Lehi,-90.2926,35.14731,Crittenden
+Arkansas,Memphis,-90.18454,35.14648,Crittenden
+Arkansas,Northeast Arkansas,-90.66648,35.80838,Craighead
+Arkansas,Ozark Mountains,-93.00045,34.00038,Clark
+Arkansas,Parkdale,-91.54568,33.12151,Ashley
+Arkansas,Plum Bayou,-91.8985,34.31691,Jefferson
+California,Alray,-117.48283,34.32834,San Bernardino
+California,Antelope Valley,-117.84981,34.65034,Los Angeles
+California,Bagdad,-115.87556,34.58277,San Bernardino
+California,Bryman,-117.3456,34.67471,San Bernardino
+California,Buckeye,-122.39918,40.63182,Shasta
+California,Cajon,-116.96253,32.79477,San Diego
+California,Central City,-120.43572,34.95303,Santa Barbara
+California,Central Valley,-120.43572,34.95303,Santa Barbara
+California,Coachella,-116.17389,33.6803,Riverside
+California,Coachella Valley,-116.35918,33.76669,Riverside
+California,Death Valley,-116.817,36.24662,Inyo
+California,Devore,-117.40144,34.2164,San Bernardino
+California,Edison,-118.86593,35.31607,Kern
+California,Edwards Air Force Base,-117.89331,34.91537,Kern
+California,Goffs,-115.06275,34.91916,San Bernardino
+California,Gold Hill,-120.85577,39.18073,Placer
+California,Hamilton Field,-118.17062,33.79168,Los Angeles
+California,Highway City,-119.88487,36.81078,Fresno
+California,Hollywood,-118.32674,34.09834,Los Angeles
+California,Hot Springs,-116.50353,33.96173,Riverside
+California,Imperial Valley,-116.04001,32.72367,Imperial
+California,Kennett,-122.40751,40.74154,Shasta
+California,Kingsbury,-123.17475,40.54014,Trinity
+California,Klondike,-118.30392,37.20605,Inyo
+California,La Jolla,-117.2742,32.84727,San Diego
+California,Lake Muroc,-117.83956,34.91268,Kern
+California,Ludlow,-116.16001,34.7211,San Bernardino
+California,Manzanar,-118.08065,36.73993,Inyo
+California,McClellan Field,-121.40083,38.6675,Sacramento
+California,Meloland,-115.44749,32.80311,Imperial
+California,Mineral King Ranch,-119.22067,36.34273,Tulare
+California,Mission Valley,-121.98857,37.54827,Alameda
+California,Napa Valley,-122.28553,38.29714,Napa
+California,New Castle,-120.56622,37.37344,Merced
+California,New Idria,-120.67434,36.4169,San Benito
+California,Nyland,-119.13511,34.22556,Ventura
+California,Old Auburn,-121.07606,38.89684,Placer
+California,Oro Grande,-117.33421,34.59888,San Bernardino
+California,Pacific Beach,-117.99923,33.6603,Orange
+California,Permanente,-122.0858,37.43327,Santa Clara
+California,Pittsburgh,-121.88468,38.02798,Contra Costa
+California,Project City,-122.37084,40.68043,Shasta
+California,Salinas Valley,-121.12797,36.20469,Monterey
+California,San Fernando,-118.43897,34.28195,Los Angeles
+California,San Fernando Valley,-118.35952,34.18195,Los Angeles
+California,San Francisco Area,-122.41942,37.77493,San Francisco
+California,San Francisco Bay,-122.41942,37.77493,San Francisco
+California,San Joaquin Valley,-121.48717,37.65632,San Joaquin
+California,San Jose,-121.89496,37.33939,Santa Clara
+California,San Miguel Mission,-120.69795,35.74441,San Luis Obispo
+California,San Pedro,-122.41942,37.77493,San Francisco
+California,San Quentin,-122.4848,37.94126,Marin
+California,Santa Clara Valley,-121.95524,37.35411,Santa Clara
+California,Sequoia National Park,-118.5752,36.50768,Tulare
+California,Shasta Dam,-122.41966,40.71827,Shasta
+California,Summit City,-122.37084,40.68043,Shasta
+California,Terminal Island,-118.24813,33.75696,Los Angeles
+California,Tule Lake,-121.49479,41.88221,Siskiyou
+California,Universal City,-118.35341,34.1389,Los Angeles
+California,Virginiatown,-121.21467,38.90045,Placer
+California,Wilmington,-118.26257,33.78002,Los Angeles
+Colorado,Antonio,-106.00863,37.07918,Conejos
+Colorado,Arapahoe,-104.98776,39.64777,Arapahoe (South Arapahoe)
+Colorado,Ashcroft,-106.79976,39.0536,Pitkin
+Colorado,Bailey,-104.97446,39.74192,Denver
+Colorado,Camp Bird,-107.72645,37.97277,Ouray
+Colorado,Camp Bird Mine,-105.59944,39.76471,Clear Creek
+Colorado,Camp Carson,-104.78886,38.73749,El Paso
+Colorado,Cimarron,-107.55673,38.44249,Montrose
+Colorado,Climax,-106.18363,39.36888,Lake
+Colorado,Creede,-106.92643,37.84917,Mineral
+Colorado,Fall Creek,-106.47781,39.43388,Eagle
+Colorado,Frying Pan Creek,-107.03421,39.36665,Eagle
+Colorado,Garcia,-105.53723,37.00419,Costilla
+Colorado,Garden Park,-104.89109,38.86777,El Paso
+Colorado,Independence,-104.60914,38.25445,Pueblo
+Colorado,Independence Pass,-106.56392,39.10888,Lake
+Colorado,Jaroso,-105.62418,37.0028,Costilla
+Colorado,Keota,-104.07523,40.70276,Weld
+Colorado,Loveland Pass,-105.87918,39.6636,Summit
+Colorado,Meredith,-103.7035,38.19091,Crowley
+Colorado,Mesa Verde National Park,-108.46241,37.23905,Montezuma
+Colorado,Ridgeway,-107.76173,38.15277,Ouray
+Colorado,Rocky Mountain National Park,-105.68364,40.34281,Larimer
+Colorado,Roosevelt National Forest,-105.50042,40.62972,Larimer
+Colorado,Russell Gulch,-105.53694,39.7786,Gilpin
+Colorado,San Luis Valley,-105.86724,37.43473,Alamosa
+Colorado,San Pablo,-105.39696000000001,37.14918,Costilla
+Colorado,Sapinero,-107.19172,38.52166,Gunnison
+Colorado,Saw Pit,-108.00173,37.99527,San Miguel
+Colorado,Sawatch Range,-106.39002,38.82111,Chaffee
+Colorado,Uncompahgre River,-108.09035,38.75665,Delta
+Connecticut,Berlin,-72.74565,41.62149,Hartford
+Connecticut,Branford,-72.8151,41.27954,New Haven
+Connecticut,Canterbury,-71.97091,41.69843,Windham
+Connecticut,Cheshire,-72.90066,41.49899,New Haven
+Connecticut,Devon,-73.10178,41.20232,New Haven
+Connecticut,Enfield,-72.59176,41.97621,Hartford
+Connecticut,Fitchville,-72.15397,41.56482,New London
+Connecticut,Gilman,-72.19925,41.57704,New London
+Connecticut,Greenfield,-73.29178,41.17649,Fairfield
+Connecticut,Hamden,-72.89677,41.39593,New Haven
+Connecticut,Ledyard,-72.01424,41.43982,New London
+Connecticut,Middlefield,-72.71204,41.51732,Middlesex
+Connecticut,Montville,-72.0998,41.47676,New London
+Connecticut,North Branford,-72.8151,41.27954,New Haven
+Connecticut,Occum,-72.05063,41.5951,New London
+Connecticut,Plainfield,-71.91507,41.67649,Windham
+Connecticut,Southington,-72.8776,41.59649,Hartford
+Connecticut,Suffield,-72.65065,41.98176,Hartford
+Connecticut,Taftville,-72.0473,41.56982,New London
+Connecticut,Uncasville,-72.1098,41.43454,New London
+Connecticut,Versailles,-72.0403,41.60738,New London
+Connecticut,Voluntown,-71.87035,41.57065,New London
+Connecticut,Wallingford,-72.82316,41.45704,New Haven
+Connecticut,Warehouse Point,-72.61953,41.92176,Hartford
+Connecticut,Weston,-73.38067,41.20093,Fairfield
+Connecticut,Westville,-72.97177,41.33065,New Haven
+Connecticut,Windsor,-72.6437,41.8526,Hartford
+Connecticut,Windsorville,-72.53094,41.88706,Hartford
+Delaware,Staytonville,-75.51881,38.84956,Sussex
+Delaware,Strawberry Point,-75.06851,38.50233,Sussex
+Delaware,Trap Pond,-75.466309999999993,38.52512,Sussex
+Florida,Baker,-82.28459,30.33107,Baker
+Florida,Camp Blanding,-81.93677,29.93941,Clay
+Florida,Childs,-81.36355,27.24238,Highlands
+Florida,Clearwater Beach,-82.82788,27.97724,Pinellas
+Florida,Dania,-80.14393,26.05231,Broward
+Florida,De Land,-81.30312,29.02832,Volusia
+Florida,Deerfield,-80.09977,26.31841,Broward
+Florida,Escambia Farms,-86.63301,30.95796,Okaloosa
+Florida,Fernandez,-82.46011,29.73719,Alachua
+Florida,Haines,-81.62009,28.1145,Polk
+Florida,Lower Matecumbe Key,-80.71729,24.86264,Monroe
+Florida,Matecumbe Key,-80.71729,24.86264,Monroe
+Florida,McKethan Lake,-82.33744,28.64657,Hernando
+Florida,Mossy Head,-86.31495,30.74324,Walton
+Florida,Perrine,-80.36283,25.60594,Dade
+Florida,Pompano,-80.12477,26.23786,Broward
+Florida,Saint Augustine,-81.31452,29.89469,St Johns
+Florida,Saint Petersburg,-82.67927,27.77086,Pinellas
+Florida,Venus,-81.35674,27.06728,Highlands
+Florida,Winterhaven,-80.1298,25.7852,Dade
+Georgia,Bairdstown,-83.11876,33.69818,Greene
+Georgia,Bethany,-82.40402,32.86682,Jefferson
+Georgia,Carey Station,-83.27127,33.54791,Greene
+Georgia,Chenocetah Mountain,-83.50656,34.50232,Habersham
+Georgia,Clarksville,-83.52489,34.6126,Habersham
+Georgia,Daniel Field,-82.03928,33.46653,Richmond
+Georgia,Dover,-81.71511,32.57712,Screven
+Georgia,DuPont,-82.87153,30.98854,Clinch
+Georgia,Etowah,-84.49076,34.23676,Cherokee
+Georgia,Fort Benning,-84.99128,32.33732,Chattahoochee
+Georgia,Fort McPherson,-84.43354,33.70733,Fulton
+Georgia,Glenloch,-84.56354,33.40595,Fayette
+Georgia,Godwinsville,-83.12709,32.13573,Dodge
+Georgia,Greshamville,-83.32377,33.62651,Greene
+Georgia,Habersham,-83.52712,34.51149,Habersham
+Georgia,Irwinville,-83.38266,31.64824,Irwin
+Georgia,Jefferson Davis Memorial State Park,-83.38655,31.66435,Irwin
+Georgia,Liberty,-81.59595,31.84688,Liberty
+Georgia,Liberty Hill,-81.564,31.85965,Liberty
+Georgia,Long Shoals,-83.99213,33.68789,Rockdale
+Georgia,Macon,-83.6324,32.84069,Bibb
+Georgia,Meadow Crest,-83.21099,33.54957,Greene
+Georgia,Mosquito Crossing,-83.1171,33.47458,Greene
+Georgia,Penfield,-83.17738,33.66735,Greene
+Georgia,Pine Mountain Valley,-84.82326,32.79874,Harris
+Georgia,Scull Shoals,-83.28043,33.7554,Greene
+Georgia,Stockton,-82.99959,30.93937,Lanier
+Georgia,Taylors Creek,-81.63372,31.94771,Liberty
+Georgia,Veazy,-83.14099,33.50457,Greene
+Georgia,Ways,-81.30344,31.93827,Bryan
+Georgia,Willie,-81.66734,32.01409,Liberty
+Georgia,Wrayswood,-83.3146,33.69346,Greene
+Hawaii,Hickam,-157.92243,21.31868,Honolulu
+Hawaii,Honolulu,-157.85833,21.30694,Honolulu
+Hawaii,Kauai,-159.33861,21.97583,Kauai
+Hawaii,Kauai District,-159.42083,22.05,Kauai
+Hawaii,Oahu,-157.96667,21.43333,Honolulu
+Hawaii,Pearl Harbor,-157.98211,21.38685,Honolulu
+Idaho,Big Wood River,-114.79561,42.9449,Gooding
+Idaho,Boise,-116.20345,43.6135,Ada
+Idaho,Craters of the Moon National Monument,-113.51751,43.41657,Butte
+Idaho,Holbrook,-112.65387,42.16186,Oneida
+Idaho,Midway,-112.81277,43.44491,Bingham
+Idaho,Ola,-116.29264,44.17822,Gem
+Idaho,Oro Fino,-116.25486,46.47601,Clearwater
+Idaho,Panther Creek,-114.40564,45.31547,Lemhi
+Idaho,Payette National Forest,-115.8783,45.13906,Valley
+Idaho,Saint Anthony,-111.68218,43.9663,Fremont
+Idaho,Salmon River Mountains,-114.20284,44.65576,Custer
+Idaho,Salmon River Valley,-115.08261,45.7688,Idaho
+Idaho,Spalding,-116.81737,46.44683,Nez Perce
+Idaho,Stanley Lake,-115.05801,44.24433,Custer
+Idaho,Tamarack,-114.60316,46.41742,Idaho
+Idaho,Targhee National Forest,-111.33571,43.65657,Teton
+Idaho,Williams Creek Valley,-116.12096,44.1635,Valley
+Illinois,Argo,-90.01735,42.00419,Carroll
+Illinois,Dahinda,-90.10901,40.92476,Knox
+Illinois,Nemo,-88.66645,38.11033,Hamilton
+Illinois,Ridgeway,-88.26115,37.79921,Gallatin
+Illinois,Rising,-88.5781,37.407,Pope
+Illinois,Robbs,-88.69978,37.45894,Pope
+Illinois,Shawnee National Forest,-88.80114,37.51139,Johnson
+Illinois,Volta,-87.72506,41.97142,Cook
+Indiana,Battlefield,-86.84473,40.50615,Tippecanoe
+Indiana,Black Township,-87.89503,37.93227,Posey
+Indiana,Blankenship,-85.54385,38.74089,Jefferson
+Indiana,Fort Harrison,-86.01248,39.86254,Marion
+Indiana,Gibson,-87.58459,38.31183,Gibson
+Indiana,Helmsburg,-86.29277,39.26533,Brown
+Indiana,Hovey,-87.93336,37.81671,Posey
+Indiana,La Porte,-86.73753,41.57154,Laporte
+Indiana,Point Township,-87.36531,41.41698,Lake
+Indiana,Port Township,-86.89503,41.70754,Laporte
+Indiana,Smithland,-85.84665,39.46033,Shelby
+Indiana,Templeton,-87.20779,40.51281,Benton
+Indiana,Wabash Farms,-84.98528,40.61722,Adams
+Iowa,Center,-91.97878,41.05307,Jefferson
+Iowa,Fort Des Moines,-93.60577,41.51943,Polk
+Iowa,Lake Center,-95.13918,43.38336,Dickinson
+Iowa,Lamoille,-93.03853,42.03054,Marshall
+Iowa,Little Sioux Township,-96.02112,41.80943,Harrison
+Iowa,Miller Township,-95.860830000000007,41.26194,Pottawattamie
+Iowa,Ringgold,-94.24397,40.7352,Ringgold
+Iowa,Smithfield,-91.78456,42.77414,Fayette
+Kansas,Argentine,-94.67246,39.075,Wyandotte
+Kansas,Camp Funston,-96.72889,39.09694,Riley
+Kansas,Flint Hills,-95.90969,38.30206,Coffey
+Kansas,Fort Leavenworth,-94.91529,39.35684,Leavenworth
+Kansas,Le Loup,-95.15997,38.69529,Franklin
+Kansas,Shaw,-100.58066,39.8292,Decatur
+Kentucky,Ary,-83.15073,37.36648,Perry
+Kentucky,Big Rock School,-83.41463,37.5287,Breathitt
+Kentucky,Botto,-83.67714,37.08731,Clay
+Kentucky,Burton Fork,-83.2349,37.71454,Magoffin
+Kentucky,Chavies,-83.35629,37.34787,Perry
+Kentucky,Frozen Creek,-83.42185,37.5912,Breathitt
+Kentucky,Kentucky Dam,-86.87583,37.40199,Ohio
+Kentucky,Landsaw,-83.45129,37.72759,Wolfe
+Kentucky,Lexington,-84.47772,37.98869,Fayette
+Kentucky,Linwood,-86.17608,37.342,Grayson
+Kentucky,Middlesboro,-83.71658,36.60842,Bell
+Kentucky,Morris Fork,-83.51602,37.38259,Breathitt
+Kentucky,Noctor,-83.33712,37.55954,Breathitt
+Kentucky,Pine Mountain,-83.71797,36.7462,Bell
+Kentucky,Quicksand,-83.3449,37.52898,Breathitt
+Kentucky,South Fork Kentucky River,-85.27857,37.84423,Washington
+Kentucky,Squabble Creek,-83.46907,37.34592,Perry
+Kentucky,Stinking Creek,-83.81603,36.83759,Knox
+Kentucky,Valley Station,-85.87024,38.11118,Jefferson
+Louisiana,Akers,-90.40203,30.29159,Tangipahoa
+Louisiana,Bayou Bourbeaux,-92.92101,31.61624,Natchitoches
+Louisiana,Bayou La Fourche,-90.20897,29.11245,Lafourche
+Louisiana,Belle Grove Plantation,-91.10288,30.18353,Iberville
+Louisiana,Camp Beauregard,-93.10266,30.68353,Beauregard
+Louisiana,Delacroix Island,-89.78756,29.76965,St Bernard
+Louisiana,Fullerton,-92.9821,30.99324,Vernon
+Louisiana,Grand Ecaille,-89.78062,29.37911,Plaquemines
+Louisiana,Jarreau,-91.45095,30.62074,Pointe Coupee
+Louisiana,Jefferson Island,-89.97229,29.28078,Jefferson
+Louisiana,Melrose,-92.9671,31.59878,Natchitoches
+Louisiana,Minerva,-90.8162,29.7091,Terrebonne
+Louisiana,Mix,-91.48511,30.65769,Pointe Coupee
+Louisiana,Oak Alley,-90.77565,30.0027,St James
+Louisiana,Olga,-89.40283,29.34661,Plaquemines
+Louisiana,Pilottown,-89.25665,29.18,Plaquemines
+Louisiana,Saint Bernard,-89.82422,29.87399,St Bernard
+Louisiana,Saint Francisville,-91.3765,30.7799,West Feliciana
+Louisiana,Saint Martinville,-91.83345,30.1252,St Martin
+Louisiana,Seabrook,-90.0134,30.03187,Orleans
+Louisiana,St. Bernard,-89.82422,29.87399,St Bernard
+Louisiana,Thomastown,-91.06983,32.35737,Madison
+Louisiana,Transylvania,-91.18261,32.67847,East Carroll
+Louisiana,Vacherie,-90.71954,30.01104,St James
+Louisiana,Vermilion,-92.13429,29.97465,Vermillion
+Maine,Boothbay,-69.63366,43.87647,Lincoln
+Maine,Buffalo Hill,-68.28316,45.09001,Hancock
+Maine,Gloucester,-70.28255,43.96285,Cumberland
+Maine,Kennebago,-70.81646,45.10727,Oxford
+Maine,Kennebago River,-70.78312,44.98978,Franklin
+Maine,Lille,-68.10781,47.27865,Aroostook
+Maine,Livermore,-70.24922,44.38396,Androscoggin
+Maine,Long Pond,-68.36357,44.32985,Hancock
+Maine,Millbridge,-67.88083,44.53536,Washington
+Maine,Monticello,-67.84252,46.30838,Aroostook
+Maine,Mooselookmeguntic Lake,-70.80004,44.90209,Oxford
+Maine,New Sweden,-68.120590000000007,46.94171,Aroostook
+Maine,North Lyndon,-68.02364,46.93949,Aroostook
+Maine,Passamaquoddy,-67.61215,45.2654,Washington
+Maine,Perham,-68.19726,46.84421,Aroostook
+Maine,Robbinston,-67.10943,45.07813,Washington
+Maine,Saint Agatha,-68.31365,47.2431,Aroostook
+Maine,Saint David,-68.23143,47.33948,Aroostook
+Maine,Sebago Lake,-70.52561,43.76091,Cumberland
+Maine,Soldier Pond,-68.63776,45.79786,Penobscot
+Maine,Wallagrass,-68.59727,47.12948,Aroostook
+Maine,Wells Beach,-70.59144,43.32397,York
+Maryland,Beachville,-76.41578,38.14874,St Marys
+Maryland,Berwyn,-76.91053,38.994,Prince Georges
+Maryland,Dameron,-76.36939,38.15235,St Marys
+Maryland,Dentsville,-76.89247,38.48179,Charles
+Maryland,Eastern Shore,-75.68607,38.20746,Somerset
+Maryland,Gibson Island.,-76.42385,39.07428,Anne Arundel
+Maryland,Glyndon,-76.81499,39.47698,Baltimore
+Maryland,Halethorpe,-76.68025,39.23983,Baltimore
+Maryland,Lothair,-76.97831,38.43901,Charles
+Maryland,Mardela,-75.7591,38.45984,Wicomico
+Maryland,Muirkirk,-76.88525,39.06178,Prince Georges
+Maryland,Newmarket,-75.92605,38.59901,Dorchester
+Maryland,Relay,-76.70303,39.22788,Baltimore
+Maryland,Ridge,-76.71358,39.21261,Howard
+Maryland,Saint Dennis,-76.4694,38.15735,St Marys
+Maryland,Saint Inigoes,-76.42301,38.1529,St Marys
+Maryland,Scotland,-76.36189,38.08902,St Marys
+Maryland,Sparrows Point,-76.49248,39.21952,Baltimore
+Maryland,Tompkinsville,-76.89247,38.32179,Charles
+Maryland,Venton,-75.7791,38.19679,Somerset
+Maryland,Westover,-75.70632,38.12401,Somerset
+Maryland,Worthington Valley,-76.7772,39.49149,Baltimore
+Massachusetts,Amherst,-72.51852,42.36723,Hampshire
+Massachusetts,Billerica,-71.26895,42.55843,Middlesex
+Massachusetts,Camp Edwards,-70.54392,41.65705,Barnstable
+Massachusetts,Cape Cod,-70.0384,41.97324,Barnstable
+Massachusetts,Chelmsford,-71.36728,42.59981,Middlesex
+Massachusetts,Cohasset,-70.80365,42.24177,Plymouth
+Massachusetts,Concord,-71.34895,42.46037,Middlesex
+Massachusetts,East Bridgewater,-70.95921,42.03343,Plymouth
+Massachusetts,Greenfield,-72.59953,42.58759,Franklin
+Massachusetts,Hadley,-72.51852,42.36723,Hampshire
+Massachusetts,Mattapoisett,-70.81615,41.65844,Plymouth
+Massachusetts,Methuen,-71.19089,42.7262,Essex
+Massachusetts,Middleboro,-70.91115,41.89316,Plymouth
+Massachusetts,North Hatfield,-72.59814,42.37092,Hampshire
+Massachusetts,Race Point,-70.24281,42.06232,Barnstable
+Massachusetts,Raynham,-71.05227,41.92371,Bristol
+Massachusetts,Savoy Mountain State Forest,-73.02454,42.60008,Berkshire
+Massachusetts,Tewksbury,-71.23422,42.61065,Middlesex
+Massachusetts,Truro,-70.04975,41.99344,Barnstable
+Massachusetts,Watertown,-71.18283,42.37093,Middlesex
+Massachusetts,West Andover,-71.15839,42.6612,Essex
+Massachusetts,West Bridgewater,-71.00782,42.01899,Plymouth
+Massachusetts,West Newbury,-70.98978,42.80148,Essex
+Michigan,Allouez,-88.40956,47.28715,Keweenaw
+Michigan,Atlantic Mine,-88.62762,47.09715,Houghton
+Michigan,Au Sable River,-84.48058,44.56863,Crawford
+Michigan,Baltic,-88.63346,47.06743,Houghton
+Michigan,Bruce Crossing,-89.17875,46.53494,Ontonagon
+Michigan,Colona,-83.01717,43.77224,Huron
+Michigan,Ewen,-89.32931,46.54161,Ontonagon
+Michigan,Franklin Mine,-88.57318,47.13993,Houghton
+Michigan,Gibbs City,-88.70069,46.22578,Iron
+Michigan,Hagerman Lake,-88.77896,46.05994,Iron
+Michigan,Kenton,-88.88931,46.48689,Houghton
+Michigan,Keweenaw Peninsula,-88.33345,47.2502,Houghton
+Michigan,Mansfield,-88.18001,46.20331,Iron
+Michigan,Millburg,-86.34169,42.12282,Berrien
+Michigan,Painesdale,-88.67235,47.04326,Houghton
+Michigan,Rouge River,-83.13437,42.27337,Wayne
+Michigan,Saginaw Farms,-83.79444,43.24056,Saginaw
+Michigan,Saint Louis,-84.60667,43.40836,Gratiot
+Michigan,Sault Sainte Marie,-84.36672,46.47805,Chippewa
+Michigan,Selfridge Field,-82.82989,42.62788,Macomb
+Michigan,Sidnaw,-88.70847,46.50466,Houghton
+Michigan,Silk Lake,-88.88213,46.36008,Iron
+Michigan,Sodus,-86.37135,42.0321,Berrien
+Michigan,Trout Creek,-89.01222,46.47722,Ontonagon
+Michigan,Willow Run,-83.53021,42.23782,Wayne
+Minnesota,Beltrami Island,-94.57831,47.41662,Beltrami
+Minnesota,Craigsville,-93.61278,47.90306,Koochiching
+Minnesota,Craigville,-93.61296,47.903,Koochiching
+Minnesota,Danube Mine,-93.4116,47.31188,Itasca
+Minnesota,Dentaybow,-93.47222,48.19861,Koochiching
+Minnesota,Ericsburg,-93.33126,48.48771,Koochiching
+Minnesota,Gheen,-92.80823,47.96797,St. Louis
+Minnesota,Little Fork,-93.58794,48.52745,Koochiching
+Minnesota,Mahoning Mine,-92.9375,47.43333,St. Louis
+Minnesota,Mahoning-Hull-Rust Mine,-92.9375,47.43333,St. Louis
+Minnesota,Margie,-93.93992,48.09523,Koochiching
+Minnesota,North Saint Paul,-93.09327,44.94441,Ramsey
+Minnesota,Norwood,-93.92163,44.77357,Carver
+Minnesota,Orth,-94.31523,47.83912,Itasca
+Minnesota,Saint Cloud,-94.16249,45.5608,Stearns
+Minnesota,Saint Paul,-93.09327,44.94441,Ramsey
+Minnesota,Spooner,-93.08472,45.02417,Ramsey
+Minnesota,Twig,-92.36463,46.89438,St. Louis
+Mississippi,Antioch,-90.84899,32.24654,Warren
+Mississippi,Bay Saint Louis,-89.33005,30.30881,Hancock
+Mississippi,Camp Shelby,-89.21106,31.19834,Forrest
+Mississippi,Clarksville,-90.57093,34.20011,Coahoma
+Mississippi,Cross,-88.52227,34.93425,Alcorn
+Mississippi,Foote,-91.03288,33.09151,Washington
+Mississippi,Good Hope Plantation,-90.30037,33.10179,Holmes
+Mississippi,Hazelhurst,-90.3862,31.85155,Copiah
+Mississippi,Hill House,-89.10922,31.66461,Jones
+Mississippi,Hillhouse,-90.81816,34.12566,Coahoma
+Mississippi,Hopson Plantation,-90.54649,34.15872,Coahoma
+Mississippi,Mileston,-90.27342,33.1104,Holmes
+Mississippi,Mississippi Delta,-90.57093,34.20011,Coahoma
+Mississippi,Nitta Yuma,-90.84927,33.02429,Sharkey
+Mississippi,Perthshire,-90.91233,33.97733,Bolivar
+Mississippi,Rodney,-91.19983,31.86127,Jefferson
+Mississippi,Scott,-89.53764,32.40638,Scott
+Mississippi,Sunflower Plantation,-90.72037,33.44012,Sunflower
+Missouri,Camp Crowder,-94.35829,36.80403,Newton
+Missouri,Cement City,-94.4169,39.14473,Jackson
+Missouri,Hart,-91.63266,37.99199,Phelps
+Missouri,Kaiser,-92.58991,38.13365,Miller
+Missouri,Kewanee,-89.57397,36.67117,New Madrid
+Missouri,La Forge,-89.52563,36.67145,New Madrid
+Missouri,Lake of the Ozarks,-92.61685,38.09809,Camden
+Missouri,Mississippi River,-90.73401,39.24783,Pike
+Missouri,Osage Farms,-91.77699,38.31659,Osage
+Missouri,Ozark Mountains,-92.47016,36.6584,Ozark
+Missouri,Saint Louis,-90.19789,38.62727,St Louis City
+Missouri,Stone Hill,-93.46047,36.80673,Stone
+Missouri,Union,-94.51328,37.08423,Jasper
+Montana,Anaconda,-112.94226,46.12854,Deer Lodge
+Montana,Bannack,-112.99559000000001,45.16103,Beaverhead
+Montana,Bar B Ranch,-111.63722,48.96584,Toole
+Montana,Birney,-106.46531,45.4161,Rosebud
+Montana,Bitterroot Valley,-114.16,46.247,Ravalli
+Montana,Brewster Ranch,-106.60977,45.27999,Rosebud
+Montana,Brockway,-105.76251,47.29778,McCone
+Montana,Crow Indian Reservation,-107.74683,45.38522,Big Horn
+Montana,Custer National Forest,-109.73698,45.22991,Stillwater
+Montana,Dewey,-109.75733,45.10946,Carbon
+Montana,Forsythe,-106.67781,46.26638,Rosebud
+Montana,Gallatin Valley,-111.23162,45.43937,Gallatin
+Montana,Georgetown Lake,-113.29108,46.18573,Granite
+Montana,Glacier National Park,-113.80031,48.68306,Flathead
+Montana,Grasshopper Valley,-112.99559000000001,45.16103,Beaverhead
+Montana,Gravelly Range,-111.85692,45.08909,Madison
+Montana,Grinnell Glacier,-113.73223,48.75942,Glacier
+Montana,Homestead,-111.66748,45.84993,Jefferson
+Montana,Lake Mary,-113.52518,48.68673,Glacier
+Montana,Lake McDonald,-113.9259,48.58348,Flathead
+Montana,Laredo,-109.88326,48.43138,Hill
+Montana,Lewiston,-109.42824,47.06247,Fergus
+Montana,Logan Pass,-113.71817,48.69664,Flathead
+Montana,Madison Range,-112.09471,44.84269,Madison
+Montana,Meaderville,-112.47307,45.99382,Silver Bow
+Montana,Mouat,-109.9174,45.34994,Stillwater
+Montana,Northern Cheyenne Indian Reservation,-106.67994,45.53208,Rosebud
+Montana,Quarter Circle U Ranch,-106.55504,45.29888,Rosebud
+Montana,Saint Mary Lake,-113.52518,48.68673,Glacier
+Montana,Sand Springs,-107.48565,47.10083,Garfield
+Montana,Skalkaho Falls,-113.82648,46.25742,Ravalli
+Montana,Skalkaho Pass,-113.77342,46.24576,Ravalli
+Montana,Spokane Ranch,-113.49673,45.63215,Beaverhead
+Montana,Swiftcurrent Lake,-113.66152,48.79534,Glacier
+Montana,Three Circle Ranch,-106.52587,45.33721,Rosebud
+Nebraska,Agate,-103.75389,42.4217,Sioux
+Nebraska,Chadron State Park,-103.01741,42.70886,Dawes
+Nebraska,Pine Ridge,-103.0838,42.62775,Dawes
+Nebraska,South Omaha,-95.96251,41.21055,Douglas
+Nebraska,Whiteclay,-102.55461,42.99693,Sheridan
+Nevada,Beowawe,-116.47731,40.59269,Eureka
+Nevada,Boulder Dam,-114.53304,36.45609,Clark
+Nevada,Currie,-114.74308,40.2666,Elko
+Nevada,Dangberg Ranch,-117.9754,39.47603,Churchill
+Nevada,El Dorado Canyon,-118.24737,40.52741,Pershing
+Nevada,Emigrant Pass,-116.27369,40.65519,Eureka
+Nevada,Fort McDermitt Indian Reservation,-117.65748,41.95597,Humboldt
+Nevada,Gold Hill,-119.6574,39.29047,Storey
+Nevada,Moapa Reservation,-114.74231,36.57005,Clark
+Nevada,Moapa River Indian Reservation,-114.74231,36.57005,Clark
+Nevada,Pine Creek Canyon,-114.90169,39.89993,White Pine
+Nevada,Pyramid Lake Indian Reservation,-119.53741,40.08061,Washoe
+Nevada,Rhyolite,-116.82923,36.90383,Nye
+Nevada,Valley of Fire,-114.53304,36.45609,Clark
+Nevada,Yucca,-116.00829,36.92969,Nye
+New Hampshire,Franconia,-71.74786,44.22701,Grafton
+New Hampshire,Franconia Notch,-71.68675,44.14951,Grafton
+New Hampshire,Haverhill,-72.06398,44.03451,Grafton
+New Hampshire,Lost River,-71.73453,44.02007,Grafton
+New Hampshire,Mount Whittier,-71.25896,43.80896,Carroll
+New Hampshire,Presidential Range,-71.32207,44.17755,Coos
+New Hampshire,Sandwich,-71.39702,43.84063,Carroll
+New Hampshire,South Tamworth,-71.30313,43.8248,Carroll
+New Hampshire,Springfield,-72.03342,43.49507,Sullivan
+New Hampshire,Sugar Hill,-71.79953,44.21534,Grafton
+New Hampshire,Turkey Pond,-71.58454,43.1766,Merrimack
+New Hampshire,Twin Mountain,-71.53897,44.27229,Coos
+New Jersey,Bivalve,-75.03379,39.23428,Cumberland
+New Jersey,Bloomfield,-74.18542,40.80677,Essex
+New Jersey,Bridgetown,-74.27765,40.60816,Union
+New Jersey,Fort Monmouth,-74.00264,40.464,Monmouth
+New Jersey,Green Brook,-74.48417,40.60431,Somerset
+New Jersey,Maplewood,-74.27348,40.73121,Essex
+New Jersey,New Bridgetown,-74.27765,40.60816,Union
+New Jersey,New Jersey Homesteads,-74.47321,40.22011,Monmouth
+New Jersey,Pine Barrens,-74.51626,39.95012,Burlington
+New Jersey,Radburn,-74.11653,40.9426,Bergen
+New Jersey,Verona,-74.24015,40.82982,Essex
+New Mexico,Abo,-106.33307,34.4559,Torrance
+New Mexico,Acomita,-107.5625,35.05278,Valencia
+New Mexico,Amalia,-105.45445,36.94197,Taos
+New Mexico,Bosque,-106.87403,33.8005,Socorro
+New Mexico,Capulin Volcano National Monument,-103.97104,36.78171,Union
+New Mexico,Carlsbad Caverns,-104.44384,32.17539,Eddy
+New Mexico,Carson National Forest,-106.07511,36.51038,Rio Arriba
+New Mexico,Cerros,-106.47726,35.93141,Sandoval
+New Mexico,Chacon,-105.36779,36.1442,Mora
+New Mexico,Cibola,-107.99971,34.91257,Valencia
+New Mexico,Dalies,-106.86059,34.772,Valencia
+New Mexico,Duoro,-104.95166,34.46424,Guadalupe
+New Mexico,El Porvenir,-105.38279,35.69671,San Miguel
+New Mexico,Elephant Butte Dam,-107.25281,33.1284,Sierra
+New Mexico,Elizabethtown,-105.28445,36.6192,Colfax
+New Mexico,Embudo,-105.96113,36.20752,Rio Arriba
+New Mexico,Escabosa,-106.29002,34.92505,Bernalillo
+New Mexico,Gaines,-105.71054,33.25175,Otero
+New Mexico,Grier,-103.39857,34.41063,Curry
+New Mexico,Holman,-105.38362,36.03837,Mora
+New Mexico,Isleta,-106.68086,34.907,Bernalillo
+New Mexico,La Loma,-105.93058,35.61948,Santa Fe
+New Mexico,Leopold,-107.87709,33.1637,Grant
+New Mexico,Llano,-105.68168,36.14003,Taos
+New Mexico,Llano de San Juan,-105.67307,36.13975,Taos
+New Mexico,Llano Largo,-105.20389,35.21699,San Miguel
+New Mexico,Llano Quemado,-105.61279,36.34891,Taos
+New Mexico,Los Cordovas,-105.63751,36.38725,Taos
+New Mexico,Lucy,-105.84335,34.65284,Torrance
+New Mexico,Manuelito,-108.99398,35.42197,Mckinley
+New Mexico,McCartys,-107.6695,35.06282,Valencia
+New Mexico,Mescalero Apache Reservation,-105.61224,33.17845,Otero
+New Mexico,Mogollon,-108.59478,33.27145,Catron
+New Mexico,Moreno Valley,-105.27223,36.53364,Colfax
+New Mexico,Ojo Sarco,-105.78335,36.12252,Rio Arriba
+New Mexico,Penasco Valley,-106.84115,35.62614,Sandoval
+New Mexico,Quirk,-107.34893,35.04782,Valencia
+New Mexico,Ranchitos,-106.06391,36.02808,Rio Arriba
+New Mexico,Rancho de Taos,-105.60946,36.35864,Taos
+New Mexico,Ricardo,-105.12889,36.97364,Colfax
+New Mexico,Rio Grande River,-105.69557,36.62474,Taos
+New Mexico,Rodarte,-105.67279,36.15197,Taos
+New Mexico,Santa Rita,-108.06087,32.78396,Grant
+New Mexico,South Chaves,-104.48552,33.34455,Chaves
+New Mexico,Taos Valley,-105.4545,36.596,Taos
+New Mexico,Tolar,-103.93163,34.4509,Roosevelt
+New Mexico,Trampas,-105.75891,36.13114,Taos
+New Mexico,White House Canyon,-107.83116,34.1445,Catron
+New Mexico,Yeso,-104.60998,34.43924,De Baca
+New York,Arden,-74.15292,41.27454,Orange
+New York,Bear Mountain,-73.99986,41.29621,Rockland
+New York,Bronx,-73.86641,40.849850000000004,Bronx
+New York,Brooklyn,-73.94958,40.6501,Kings
+New York,Brooktondale,-76.39466,42.38063,Tompkins
+New York,Corona,-73.86014,40.74705,Queens
+New York,Danby,-76.48077,42.3523,Tompkins
+New York,Erie Canal,-75.92158,43.07312,Onondaga
+New York,Finger Lakes,-76.99997,42.8334,Ontario
+New York,Fort Hunter,-74.28513,42.9423,Montgomery
+New York,Fort Slocum,-73.77056,40.88417,Westchester
+New York,Hoffman Island,-74.05397,40.57883,Richmond
+New York,Lake Champlain,-73.42373,44.03228,Essex
+New York,Long Island,-73.06622,40.81677,Suffolk
+New York,Long Island City,-73.91327,40.75766,Queens
+New York,Manhattan Beach,-73.94708,40.57733,Kings
+New York,New Baltimore,-73.78846,42.44619,Greene
+New York,Orwell,-75.99631,43.57479,Oswego
+New York,Pine Camp,-74.62611,43.82139,Hamilton
+New York,Queens,-73.83652,40.68149,Queens
+New York,Reedville,-75.65437,44.10145,Jefferson
+New York,Rensselaerville,-74.13791,42.51619,Albany
+New York,Sheepshead Bay,-73.94458,40.59122,Kings
+New York,Southfields,-74.17542,41.24482,Orange
+New York,Sterlingville,-75.68715,44.10312,Jefferson
+New York,Stevensville,-74.77794,41.75064,Sullivan
+New York,Taconic Hills,-73.60144,42.17036,Columbia
+New York,Townsend,-74.83917,43.81376,Herkimer
+New York,Travers Island,-73.78763,40.88732,Westchester
+New York,Tusten,-75.01906,41.55537,Sullivan
+North Carolina,Belcross,-76.15465,36.34793,Camden
+North Carolina,Blanch,-79.29502,36.50792,Caswell
+North Carolina,Bushy Fork,-79.09338,36.29228,Person
+North Carolina,Bynum,-79.14224,35.77403,Chatham
+North Carolina,Camp Lejeune,-77.43967,34.70842,Onslow
+North Carolina,Carr,-78.75093,35.97689,Durham
+North Carolina,Cedar Grove,-79.16779,36.16764,Orange
+North Carolina,Corbett Ridge,-79.23057,36.28542,Caswell
+North Carolina,Crabtree Creek,-78.74278,35.85376,Wake
+North Carolina,Culbreth,-78.7275,36.26376,Granville
+North Carolina,Farrington,-79.0139,35.80181,Chatham
+North Carolina,Fontana,-83.81906,35.43564,Graham
+North Carolina,Fort Bragg,-79.00603,35.139,Cumberland
+North Carolina,Frogsboro,-79.18196,36.34542,Caswell
+North Carolina,Fuquay Springs,-78.80001,35.58432,Wake
+North Carolina,Gordonton,-80.10866,35.75569,Davidson
+North Carolina,Hester,-79.7406,36.32941,Rockingham
+North Carolina,Hiwassee Dam,-84.1713,35.14897,Cherokee
+North Carolina,Leasburg,-79.15446,36.39458,Caswell
+North Carolina,Locust Hill,-79.45919,36.40001,Caswell
+North Carolina,Manchester,-79.00603,35.139,Cumberland
+North Carolina,Mebane,-79.26696,36.09597,Alamance
+North Carolina,Old Trap,-76.02687,36.24071,Camden
+North Carolina,Olive Hill,-79.09153,36.39429,Person
+North Carolina,Penderlea,-78.04971,34.65961,Pender
+North Carolina,Penderlea Homesteads,-77.9836,34.62656,Pender
+North Carolina,Prospect Hill,-79.19085,36.2493,Caswell
+North Carolina,Rosewood,-78.07082,35.41349,Wayne
+North Carolina,Seaforth,-79.0314,35.74015,Chatham
+North Carolina,Shawboro,-76.0941,36.40543,Currituck
+North Carolina,Shiloh,-80.94938,35.76697,Iredell
+North Carolina,Shoofly,-78.72917,36.22264,Granville
+North Carolina,Smoky Mountains,-83.53523,35.51742,Swain
+North Carolina,Tallyho,-78.71111,36.20876,Granville
+North Carolina,Upchurch,-78.85751,35.78932,Wake
+North Carolina,Wakefield,-78.56801,35.94433,Wake
+North Carolina,Wilmar,-77.14356,35.39516,Beaufort
+North Dakota,Alkabo,-103.89021,48.86281,Divide
+North Dakota,Charlson,-102.91102,48.10002,Mckenzie
+North Dakota,Denbigh,-100.63653,48.29028,Mchenry
+North Dakota,Doyon,-98.53677,48.05278,Ramsey
+North Dakota,Ellisville Township,-103.47204,48.50313,Williams
+North Dakota,Grassy Butte,-103.24797,47.39251,Mckenzie
+North Dakota,Lone Tree,-103.95301,46.71656,Golden Valley
+North Dakota,Lonetree,-101.54294,48.35085,Ward
+North Dakota,Nesson Township,-103.15046,48.17141,Williams
+North Dakota,New Hradec,-102.88435,46.99946,Dunn
+North Dakota,Rawson,-103.54075,47.81946,Mckenzie
+North Dakota,Saint Anthony,-100.91319,46.61694,Morton
+North Dakota,Truax,-103.28738,48.12546,Williams
+North Dakota,Truax Township,-103.28738,48.12546,Williams
+North Dakota,Wheelock,-103.25241,48.29641,Williams
+North Dakota,Williams County,-103.61797,48.14697,Williams
+North Dakota,Zahl,-103.66051,48.57067,Williams
+Ohio,Atlanta,-83.19047,39.56145,Pickaway
+Ohio,Huntington,-83.76103,38.65563,Brown
+Ohio,Linworth,-83.04907,40.09006,Franklin
+Ohio,Ohio River,-82.18237,41.45282,Lorain
+Ohio,Utopia,-84.05715,38.77618,Clermont
+Oklahoma,Belva,-98.9751,36.49892,Woodward
+Oklahoma,Cardin,-94.84884,36.97257,Ottawa
+Oklahoma,Chickasaw,-97.00716,34.46049,Murray
+Oklahoma,Fort Sill,-98.41672,34.56758,Comanche
+Oklahoma,Oil City,-97.41836,34.27454,Carter
+Oklahoma,Oklahoma Panhandle,-101.50072,36.7503,Texas
+Oklahoma,Picher,-94.83078,36.98701,Ottawa
+Oklahoma,Pottawatomie,-96.9253,35.32729,Pottowatomie
+Oklahoma,Tabor,-96.26361,35.80175,Creek
+Oklahoma,Tangier,-99.53345,36.42087,Woodward
+Oregon,Bonneville Dam,-121.94064,45.64428,Multnomah
+Oregon,Bourne,-118.19744,44.82431,Baker
+Oregon,Cascade Range,-121.65367,45.46302,Hood River
+Oregon,Celilo,-120.96201,45.65012,Wasco
+Oregon,Columbia River,-121.4873,45.70345,Hood River
+Oregon,Columbia River Gorge,-121.91452,45.64095,Hood River
+Oregon,Cow Hollow,-123.41591,43.22512,Douglas
+Oregon,Crater Lake National Park,-122.13282,42.94109,Klamath
+Oregon,Dead Ox Flat,-117.02045,44.23739,Malheur
+Oregon,Deschutes National Forest,-121.69715,43.46082,Klamath
+Oregon,Deschutes River,-121.35836,43.99151,Deschutes
+Oregon,Diamond Lake,-122.15159,43.16,Douglas
+Oregon,East Bench,-117.3099,43.97849,Malheur
+Oregon,Fort Klamath,-121.99585,42.70458,Klamath
+Oregon,Gilchrist,-121.6853,43.47707,Klamath
+Oregon,Hood River Valley,-121.54646,45.68463,Hood River
+Oregon,Keno,-121.93001,42.12653,Klamath
+Oregon,Kirby,-117.61132,44.59558,Baker
+Oregon,Klamath Basin,-122.22086,42.66041,Klamath
+Oregon,Koosah Falls,-122.00062,44.34401,Linn
+Oregon,Malheur National Forest,-118.85774,44.24937,Grant
+Oregon,Mapleton,-123.85816,44.03123,Lane
+Oregon,Marys River,-123.26149,44.55568,Benton
+Oregon,Mount Hood National Forest,-121.56945,45.53393,Hood River
+Oregon,Nyssa Heights,-117.02599,43.89433,Malheur
+Oregon,Owyhee Dam,-117.24822,43.65127,Malheur
+Oregon,Owyhee Reservoir,-117.34676,43.42594,Malheur
+Oregon,Rimrock,-121.82005,44.80982,Marion
+Oregon,Rogue River National Forest,-122.48894,42.76284,Jackson
+Oregon,Siltcoos,-124.08974,43.87586,Lane
+Oregon,Sunset Valley,-118.97354,43.3571,Harney
+Oregon,West Carlton,-123.17649,45.29428,Yamhill
+Oregon,West Stayton,-122.79453,44.80068,Marion
+Oregon,White Salmon River,-121.49523,45.71745,Hood River
+Oregon,Willamette,-123.0501,45.0754,Marion
+Oregon,Willamette National Forest,-122.53335,43.75864,Lane
+Oregon,Willamette River,-122.76482,45.65289,Multnomah
+Oregon,Willamette Valley,-123.16485,45.199,Yamhill
+Pennsylvania,Amity Hall,-77.00887,40.42786,Perry
+Pennsylvania,Barto,-75.61149,40.38945,Berks
+Pennsylvania,Butztown,-75.32796,40.65315,Northampton
+Pennsylvania,Cardiff,-78.83391,40.49507,Cambria
+Pennsylvania,Chaneysville,-78.48918,39.8237,Bedford
+Pennsylvania,Coal Hollow,-78.6103,41.34506,Elk
+Pennsylvania,Dresher,-75.16684,40.14094,Montgomery
+Pennsylvania,Du Bois,-78.89864,41.17812,Jefferson
+Pennsylvania,Fogelsville,-75.63269,40.58315,Lehigh
+Pennsylvania,Fox Hill,-75.17212,40.97898,Monroe
+Pennsylvania,Frankford,-75.0135,40.04713,Philadelphia
+Pennsylvania,Hanoverville,-75.3749,40.68288,Northampton
+Pennsylvania,Haverford,-75.30852,39.98095,Delaware
+Pennsylvania,Hinkletown,-76.12162,40.14815,Lancaster
+Pennsylvania,Landis Valley,-76.28051,40.09371,Lancaster
+Pennsylvania,Leacock,-76.18904,40.09155,Lancaster
+Pennsylvania,Manayunk,-75.21407,40.02456,Philadelphia
+Pennsylvania,Mauch Chunk,-75.73241,40.87592,Carbon
+Pennsylvania,Nanty Glo,-78.83336,40.47229,Cambria
+Pennsylvania,Neffsville,-76.30524,40.1001,Lancaster
+Pennsylvania,Penfield,-78.57558,41.20839,Clearfield
+Pennsylvania,Pennsylvania Turnpike,-75.49491,40.90176,Monroe
+Pennsylvania,Pleasant Unity,-79.45087,40.23951,Westmoreland
+Pennsylvania,Red Run,-76.08217,40.18426,Lancaster
+Pennsylvania,Riddlesburg,-78.25446,40.16202,Bedford
+Pennsylvania,Shoenersville,-75.42463,40.66343,Northampton
+Pennsylvania,Toby,-79.52522,41.06673,Clarion
+Pennsylvania,Union Township,-76.86691,41.04092,Union
+Pennsylvania,United,-79.48782,40.2184,Westmoreland
+Pennsylvania,Upper Darby,-75.29213,39.94706,Delaware
+Pennsylvania,West Aliquippa,-80.24062,40.59257,Beaver
+Pennsylvania,Westmoreland,-79.76477,40.56979,Westmoreland
+Pennsylvania,Westmoreland City,-79.76477,40.56979,Westmoreland
+Puerto Rico,Central Lafayette,-66.05878,17.97719,Arroyo
+Puerto Rico,Comerio,-66.22183,18.22718,Comerío
+Puerto Rico,Ensenada,-66.92869,17.96969,Guánica
+Puerto Rico,Hato Rey,-66.05103,18.42173,San Juan
+Puerto Rico,La Plata,-66.23562,18.16103,Aibonito
+Puerto Rico,Manati,-66.49267,18.41884,Manatí
+Puerto Rico,Rio Piedras,-65.84327,18.23881,Las Piedras
+Puerto Rico,Santurce,-66.04714,18.44084,San Juan
+Rhode Island,Ashton,-71.43061,41.93815,Providence
+Rhode Island,Foster,-71.75812,41.85371,Providence
+Rhode Island,Johnston,-71.50675,41.82186,Providence
+Rhode Island,Little Compton,-71.17116,41.5101,Newport
+Rhode Island,Portsmouth,-71.25033,41.60232,Newport
+Rhode Island,Slatersville,-71.57979,42.00038,Providence
+Rhode Island,Slocum,-71.51617,41.53066,Washington
+Rhode Island,Usquepaugh,-71.60895,41.50316,Washington
+Rhode Island,Wickford,-71.46145,41.57399,Washington
+South Carolina,Camp Croft,-81.85288,34.91068,Spartanburg
+South Carolina,Fort Jackson,-80.83335,34.04757,Richland
+South Carolina,Ladys Island,-80.63316,32.45019,Beaufort
+South Carolina,Lobeco,-80.74344,32.55269,Beaufort
+South Carolina,Monticello,-81.29843,34.35265,Fairfield
+South Carolina,Orangeburg Farms,-80.74861,33.49639,Orangeburg
+South Carolina,Parris Island,-80.69233,32.3352,Beaufort
+South Carolina,Saint Helena Island,-80.56066,32.38686,Beaufort
+South Carolina,St. Helena Island,-80.62824,32.4765,Beaufort
+South Carolina,Whitestone,-81.81705,34.90291,Spartanburg
+South Dakota,Ardmore,-103.65631,43.01941,Fall River
+South Dakota,Badlands,-99.39621,43.75027,Brule
+South Dakota,Badlands National Park,-102.39395,43.834,Pennington
+South Dakota,Custer State Park,-103.43797000000001,43.70026,Custer
+South Dakota,Mina,-98.75871,45.43331,Edmunds
+South Dakota,Terry,-103.83567,44.32764,Lawrence
+South Dakota,Trail City,-100.72542,45.47249,Dewey
+South Dakota,Two Bit,-103.63103,44.38721,Lawrence
+South Dakota,Two Bit Creek,-103.63103,44.38721,Lawrence
+South Dakota,White Butte,-102.36238,45.94056,Perkins
+South Dakota,Zell,-98.72843,44.89692,Faulk
+Tennessee,Big Ridge Lake,-83.88252,36.30353,Union
+Tennessee,Cherokee Dam,-83.49792,36.16727,Jefferson
+Tennessee,Chickamauga,-85.21996,35.09646,Hamilton
+Tennessee,Chickamauga Creek,-85.2319,35.10674,Hamilton
+Tennessee,Chickamauga Dam,-85.21996,35.09646,Hamilton
+Tennessee,Concord,-84.14186,35.86869,Knox
+Tennessee,Cove Lake State. Park,-84.21271,36.30813,Campbell
+Tennessee,Cumberland Homesteads,-84.94523,35.9084,Cumberland
+Tennessee,Daddys Creek,-84.76522,36.07924,Morgan
+Tennessee,Douglas Dam,-83.53855,35.96142,Sevier
+Tennessee,Fort Loudon Dam,-84.24325,35.79202,Loudon
+Tennessee,Fort Loudoun,-84.20269,35.59647,Monroe
+Tennessee,Fort Loudoun Dam,-84.24325,35.79202,Loudon
+Tennessee,Greenville,-82.83099,36.16316,Greene
+Tennessee,Norris Dam,-84.11048,36.23841,Campbell
+Tennessee,Norris Dam Park,-84.11048,36.23841,Campbell
+Tennessee,Norris Lake,-83.88252,36.30353,Union
+Tennessee,North Memphis,-90.04898,35.14953,Shelby
+Tennessee,Pickwick Dam,-88.24171,35.05231,Hardin
+Tennessee,Pickwick Lake,-88.2526,35.0362,Hardin
+Tennessee,Pickwick Landing Dam,-88.24726,35.06397,Hardin
+Tennessee,Russellville,-83.19517,36.25871,Hamblen
+Tennessee,Smoky Mountains,-83.50877,35.60065,Sevier
+Tennessee,Soddy,-85.19079,35.2359,Hamilton
+Tennessee,Tennessee River,-86.43078,35.87609,Rutherford
+Tennessee,Tennessee Valley,-85.18468,35.1959,Hamilton
+Tennessee,Watts Bar Dam,-84.77772,35.62924,Meigs
+Tennessee,Watts Bar DAM,-84.77772,35.62924,Meigs
+Texas,Amarillo Creek,-101.90217,35.21869,Potter
+Texas,Brazos River Valley,-95.57509,29.37896,Fort Bend
+Texas,Camp Hood,-97.82698,32.46042,Hood
+Texas,Carey,-100.32567,34.47117,Childress
+Texas,Codman,-100.75347,35.64004,Roberts
+Texas,Colorado,-96.52628,29.62082,Colorado
+Texas,Dalhart,-102.51325,36.05948,Dallam
+Texas,Dawn,-102.19992,34.91034,Deaf Smith
+Texas,Everett,-101.5065,30.0027,Val Verde
+Texas,Finlay,-105.62996,31.25874,Hudspeth
+Texas,Fort Sam Houston,-98.4417,29.45303,Bexar
+Texas,Glazier,-100.26374,36.01143,Hemphill
+Texas,Harleton,-94.57465,32.67653,Harrison
+Texas,Hoover,-98.39614,30.70379,Burnet
+Texas,Hoskins Mound,-95.22771,29.13885,Brazoria
+Texas,Kelly Field,-100.94818,32.79011,Scurry
+Texas,Kincaid,-95.50994,29.74717,Harris
+Texas,McDonald Observatory,-104.02158,30.67154,Jeff Davis
+Texas,Moore Field,-101.96962,35.85087,Moore
+Texas,Neches,-94.10185,30.08605,Jefferson
+Texas,Parmerton,-102.80244,34.57979,Parmer
+Texas,Randolph Field,-97.91269,29.56615,Guadalupe
+Texas,Rio Grande Valley,-97.65443,26.22869,Cameron
+Texas,Tally,-97.0736,27.97085,Aransas
+Texas,Texas Panhandle,-101.38044,35.3456,Carson
+Texas,Wells Point,-97.90389,28.05985,Live Oak
+Texas,Wichita Gardens,-98.48297,33.94276,Wichita
+Utah,Bingham,-111.89994,40.61106,Salt Lake
+Utah,Bingham Canyon,-112.13056,40.55833,Salt Lake
+Utah,Brigham,-111.65103,40.24579,Utah
+Utah,Bryce Canyon National Park,-112.18271,37.5839,Garfield
+Utah,Consumers,-111.06267,39.70052,Carbon
+Utah,Garfield,-111.44313,37.85492,Garfield
+Utah,Ironton,-111.61825,40.19857,Utah
+Utah,Saint George,-113.58412,37.10415,Washington
+Utah,Widtsoe,-111.99547,37.83221,Garfield
+Vermont,Addison,-73.25401,44.16728,Addison
+Vermont,Bakersfield,-72.80291,44.78199,Franklin
+Vermont,Barnard,-72.61899,43.72868,Windsor
+Vermont,Bridgewater,-72.6251,43.58812,Windsor
+Vermont,Brookline,-72.60148,43.03175,Windham
+Vermont,Craftsbury,-72.38205,44.65422,Orleans
+Vermont,Dummerston,-72.61537,42.92647,Windham
+Vermont,East Albany,-72.31622,44.73116,Orleans
+Vermont,East Alburg,-73.22957,44.9731,Grand Isle
+Vermont,East Berkshire,-72.7093,44.93532,Franklin
+Vermont,East Fletcher,-72.83791,44.7131,Franklin
+Vermont,Eden Mills,-72.53011,44.71338,Lamoille
+Vermont,Fletcher,-72.91375,44.68338,Franklin
+Vermont,Gaysville,-72.69899,43.7784,Windsor
+Vermont,Guilford,-72.57648,42.81786,Windham
+Vermont,Highgate Springs,-73.10541,44.97949,Franklin
+Vermont,Kirby,-71.91512,44.50284,Caledonia
+Vermont,Lake Eden,-72.50592,44.71882,Lamoille
+Vermont,Londonderry,-72.80649,43.22646,Windham
+Vermont,Missisquoi,-73.17932,44.9525,Franklin
+Vermont,Montgomery Center,-72.60234,44.8781,Franklin
+Vermont,Mount Holly,-72.82482,43.45229,Rutland
+Vermont,Mount Mansfield,-72.81429,44.54366,Chittenden
+Vermont,New Haven,-73.15373,44.1245,Addison
+Vermont,North Bridgewater,-72.6251,43.58812,Windsor
+Vermont,North Hyde Park,-72.59817,44.67061,Lamoille
+Vermont,Northfield Falls,-72.65094,44.17201,Washington
+Vermont,Proctor,-73.03566,43.66062,Rutland
+Vermont,Saint Albans,-73.08319,44.81088,Franklin
+Vermont,Saint Johnsbury,-72.01509,44.41922,Caledonia
+Vermont,Shaftsbury,-73.19122,43.00869,Bennington
+Vermont,Sheldon,-72.94291,44.88171,Franklin
+Vermont,Sheldon Springs,-72.97763,44.90616,Franklin
+Vermont,Smuggler's Notch,-72.79568,44.55533,Lamoille
+Vermont,Smugglers Notch,-72.79568,44.55533,Lamoille
+Vermont,South Hero,-73.30235,44.64532,Grand Isle
+Vermont,South Londonderry,-72.81426,43.19285,Windham
+Vermont,Taftsville,-72.46898,43.63063,Windsor
+Vermont,Tinmouth,-73.04955,43.44868,Rutland
+Vermont,Townsend,-72.66759,43.0473,Windham
+Vermont,Tunbridge,-72.49121,43.8909,Orange
+Vermont,West Danville,-72.1951,44.4095,Caledonia
+Vermont,West Hartford,-72.41759,43.71229,Windsor
+Vermont,Westfield,-72.42844,44.88949,Orleans
+Vermont,Westminster Station,-72.43925,43.08563,Windham
+Vermont,Weston,-72.79315,43.29119,Windsor
+Virgin Islands of the U.S.,Bethlehem,-64.79376,17.73136,St. Croix
+Virgin Islands of the U.S.,French Village,-64.94209,18.33829,St. Thomas
+Virgin Islands of the U.S.,La Vallee,-64.80306,17.77778,St. Croix
+Virgin Islands of the U.S.,Saint John,-64.79375,18.33134,St. John
+Virgin Islands of the U.S.,Williams,-64.83542,17.69998,St. Croix
+Virginia,Appalachia,-82.78183,36.90676,Wise
+Virginia,Blue Ridge Mountains,-78.15055,38.85234,Warren
+Virginia,Blue Ridge Parkway,-80.64257,36.67208,Carroll
+Virginia,Camp Lee,-83.14378,36.68176,Lee
+Virginia,Corbin Hollow,-78.31973,38.56818,Madison
+Virginia,Dennison,-81.90651,36.95567,Russell
+Virginia,Fort Monroe,-76.30739,37.00399,Elizabeth City
+Virginia,Fort Myer,-77.07754,38.87186,Arlington
+Virginia,Fort Story,-76.01915,36.92525,Princess Anne
+Virginia,Frederick,-78.14698,39.14316,Frederick
+Virginia,Hampton,-76.34522,37.02987,Hampton City
+Virginia,Hughes River,-78.21889,38.53985,Rappahannock
+Virginia,Java,-79.2278,36.83597,Pittsylvania
+Virginia,Langley Field,-76.36055,37.08288,Elizabeth City
+Virginia,Little Creek,-81.46188,36.66027,Grayson
+Virginia,McGaheysville,-78.73224,38.37124,Rockingham
+Virginia,Milford,-77.37331,38.02319,Caroline
+Virginia,Monticello,-78.45251,38.01042,Albemarle
+Virginia,National Airport,-77.0372,38.85233,Arlington
+Virginia,Nethers,-78.27778,38.5704,Madison
+Virginia,Nicholas,-78.46723,37.76598,Fluvanna
+Virginia,Nicholson Hollow,-78.29417,38.57373,Madison
+Virginia,Old Rag,-78.31417,38.55179,Madison
+Virginia,Old Rag Mountain,-78.31417,38.55179,Madison
+Virginia,Port Republic,-78.81058,38.29624,Rockingham
+Virginia,Portsmouth,-76.29827,36.83543,Portsmouth City
+Virginia,Roseland,-78.97586,37.74764,Nelson
+Virginia,Rosslyn,-77.07248,38.89678,Arlington
+Virginia,Shenandoah National Park,-78.4691,38.49177,Page
+Virginia,Shenandoah Valley,-78.84975,38.48346,Rockingham
+Virginia,Simonsdale,-76.37772,36.82376,Norfolk
+Virginia,Singer's Glen,-78.91336,38.55262,Rockingham
+Virginia,Skyline Drive,-78.18619,38.9168,Warren
+Virginia,Upper Zion,-77.24303,38.06541,Caroline
+Virginia,Virginia Beach,-75.97799,36.85293,Princess Anne
+Virginia,Washington National Airport,-77.0372,38.85233,Arlington
+Washington,Eureka Flat,-118.57526,46.32569,Walla Walla
+Washington,Eureka Flats,-118.57526,46.32569,Walla Walla
+Washington,Klickitat,-120.78926,45.873779999999996,Klikatat
+Washington,Yakima River,-120.51451,46.63068,Yakima
+Washington,Yakima Valley,-120.60507,46.59207,Yakima
+West Virginia,Arthurdale,-79.81506,39.49509,Preston
+West Virginia,Berkeley Springs,-78.09528,39.49149,Berkeley
+West Virginia,Bertha Hill,-79.99229,39.66453,Monongalia
+West Virginia,Capels,-81.6015,37.45456,McDowell
+West Virginia,Chaplin,-80.02845,39.65059,Monongalia
+West Virginia,Davey,-78.73002,39.26066,Hampshire
+West Virginia,Dobra,-81.82429,37.93455,Logan
+West Virginia,Eatons,-81.31373,39.19619,Wood
+West Virginia,Erwin,-79.63839,39.29649,Preston
+West Virginia,Freeze Fork,-81.90234,37.86122,Logan
+West Virginia,Gormania,-79.34449,39.29288,Grant
+West Virginia,Harper's Ferry,-77.73888,39.32538,Jefferson
+West Virginia,Hernshaw,-81.60234,38.2251,Kanawha
+West Virginia,Institute,-81.76541,38.38371,Kanawha
+West Virginia,Jere,-80.03534,39.66703,Monongalia
+West Virginia,Kanawha River,-81.8443,38.34287,Kanawha
+West Virginia,Kempton,-79.44616,39.21538,Grant
+West Virginia,Longacre,-81.30344,38.16761,Fayette
+West Virginia,Maidsville,-79.98006,39.68841,Monongalia
+West Virginia,Maitland,-81.55149,37.42872,McDowell
+West Virginia,Marine,-81.63066,37.46289,McDowell
+West Virginia,Mohegan,-81.63066,37.45317,McDowell
+West Virginia,Monongahela National Forest,-79.89362,38.55516,Randolph
+West Virginia,Pursglove,-80.02618,39.66758,Monongalia
+West Virginia,Red House,-81.8968,38.53926,Putnam
+West Virginia,Scotts Run,-80.04883,39.66706,Monongalia
+West Virginia,Twin Branch,-81.66844,37.47483,McDowell
+West Virginia,Tygart Valley,-80.15313,39.465089999999996,Marion
+Wisconsin,Alvin,-88.82929,45.98496,Forest
+Wisconsin,Bridgeport,-91.05791,43.00915,Crawford
+Wisconsin,Millville,-90.93013,43.03332,Grant
+Wisconsin,Nelma,-88.81791,46.01968,Forest
+Wisconsin,Tipler,-88.63485,45.92496,Florence
+Wisconsin,Zachow,-88.36371,44.73221,Shawano
+Wyoming,Buford,-105.30471,41.12193,Albany
+Wyoming,Cheyenne,-104.82025,41.13998,Laramie
+Wyoming,Emblem,-108.39178,44.50579,Big Horn
+Wyoming,Grand Tetons,-110.88411,43.75132,Teton
+Wyoming,Jackson Hole,-110.73854,43.6066,Teton
+Wyoming,Jay Em,-104.36967,42.46135,Goshen
+Wyoming,Snake River Valley,-107.65757,41.0358,Carbon
+Wyoming,Teton National Forest,-110.32194,43.64742,Teton
