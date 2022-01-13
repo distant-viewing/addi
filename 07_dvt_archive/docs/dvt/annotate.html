@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>dvt.annotate API documentation</title>
+<meta name="description" content="Annotators for extracting high-level metadata about the images in the input." />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+<style>.homelink{display:block;font-size:2em;font-weight:bold;color:#555;padding-bottom:.5em;border-bottom:1px solid silver}.homelink:hover{color:inherit}.homelink img{max-width:20%;max-height:5em;margin:auto;margin-bottom:.3em}</style>
+<link rel="canonical" href="https://pdoc3.github.io/pdoc/doc/dvt/annotate.html">
+<link rel="icon" href="https://pdoc3.github.io/pdoc/logo.png">
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>dvt.annotate</code></h1>
+</header>
+<section id="section-intro">
+<p>Annotators for extracting high-level metadata about the images in the input.</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python"># -*- coding: utf-8 -*-
+&#34;&#34;&#34;Annotators for extracting high-level metadata about the images in the input.
+&#34;&#34;&#34;
+
+from os.path import join
+
+from cv2 import imwrite, resize, cvtColor, COLOR_BGR2HSV
+
+from .abstract import ImageAnnotator
+from .utils import _check_out_dir
+
+
+class SizeAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for grabbing metadata about the images in the batch.
+
+    Attributes:
+        name (str): A description of the aggregator. Used as a key in the
+            output data.
+    &#34;&#34;&#34;
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the image annotator.
+
+        Args:
+            img (Array)
+
+        Returns:
+            A dictionary containing the height and width of the input image.
+        &#34;&#34;&#34;
+        output = {&#34;size&#34;: {&#34;height&#34;: [img.shape[0]], &#34;width&#34;: [img.shape[1]]}}
+        return output
+
+
+class AverageAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for grabbing&#34;&#34;&#34;
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the image annotator.
+
+        Args:
+            img (Array)
+
+        Returns:
+            A dictionary containing the average value and saturation of the
+            image.
+        &#34;&#34;&#34;
+        img_hsv = cvtColor(img, COLOR_BGR2HSV)
+        output = {
+            &#34;average&#34;: {
+                &#34;saturation&#34;: [img_hsv[:, :, 1].mean()],
+                &#34;val&#34;: [img_hsv[:, :, 2].mean()],
+            }
+        }
+        return output
+
+
+class ImwriteAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for saving still images from an input.
+
+    The annotate method of this annotator does not return any data. It is
+    useful only for its side effects.
+    &#34;&#34;&#34;
+
+    def __init__(self, **kwargs):
+        self.output_dir = _check_out_dir(kwargs[&#34;output_dir&#34;])
+        self.size = kwargs.get(&#34;size&#34;, None)
+
+        super().__init__(**kwargs)
+
+    def annotate_image(self, img, **kwargs):
+        &#34;&#34;&#34;Annotate the images.&#34;&#34;&#34;
+        opath = join(self.output_dir, kwargs.get(&#34;fname&#34;, &#34;figure.png&#34;))
+
+        if self.size is not None:
+            scale = img.shape[1] / self.size
+            new_size = (int(img.shape[2] // scale), int(self.size))
+            img_resize = resize(img, new_size)
+            imwrite(filename=opath, img=img_resize)
+        else:
+            imwrite(filename=opath, img=img)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="dvt.annotate.cvtColor"><code class="name flex">
+<span>def <span class="ident">cvtColor</span></span>(<span>src, code, dst, dstCn)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>cvtColor(src, code[, dst[, dstCn]]) -&gt; dst
+.
+@brief Converts an image from one color space to another.
+. <br>
+.
+The function converts an input image from one color space to another. In case of a transformation
+.
+to-from RGB color space, the order of the channels should be specified explicitly (RGB or BGR). Note
+.
+that the default color format in OpenCV is often referred to as RGB but it is actually BGR (the
+.
+bytes are reversed). So the first byte in a standard (24-bit) color image will be an 8-bit Blue
+.
+component, the second byte will be Green, and the third byte will be Red. The fourth, fifth, and
+.
+sixth bytes would then be the second pixel (Blue, then Green, then Red), and so on.
+. <br>
+.
+The conventional ranges for R, G, and B channel values are:
+.
+-
+0 to 255 for CV_8U images
+.
+-
+0 to 65535 for CV_16U images
+.
+-
+0 to 1 for CV_32F images
+. <br>
+.
+In case of linear transformations, the range does not matter. But in case of a non-linear
+.
+transformation, an input RGB image should be normalized to the proper value range to get the correct
+.
+results, for example, for RGB \f$\rightarrow\f$ L*u*v* transformation. For example, if you have a
+.
+32-bit floating-point image directly converted from an 8-bit image without any scaling, then it will
+.
+have the 0..255 value range instead of 0..1 assumed by the function. So, before calling #cvtColor ,
+.
+you need first to scale the image down:
+.
+@code
+.
+img *= 1./255;
+.
+cvtColor(img, img, COLOR_BGR2Luv);
+.
+@endcode
+.
+If you use #cvtColor with 8-bit images, the conversion will have some information lost. For many
+.
+applications, this will not be noticeable but it is recommended to use 32-bit images in applications
+.
+that need the full range of colors or that convert an image before an operation and then convert
+.
+back.
+. <br>
+.
+If conversion adds the alpha channel, its value will set to the maximum of corresponding channel
+.
+range: 255 for CV_8U, 65535 for CV_16U, 1 for CV_32F.
+. <br>
+.
+@param src input image: 8-bit unsigned, 16-bit unsigned ( CV_16UC&hellip; ), or single-precision
+.
+floating-point.
+.
+@param dst output image of the same size and depth as src.
+.
+@param code color space conversion code (see #ColorConversionCodes).
+.
+@param dstCn number of channels in the destination image; if the parameter is 0, the number of the
+.
+channels is derived automatically from src and code.
+. <br>
+.
+@see @ref imgproc_color_conversions</p></div>
+</dd>
+<dt id="dvt.annotate.imwrite"><code class="name flex">
+<span>def <span class="ident">imwrite</span></span>(<span>filename, img, params)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>imwrite(filename, img[, params]) -&gt; retval
+.
+@brief Saves an image to a specified file.
+. <br>
+.
+The function imwrite saves the image to the specified file. The image format is chosen based on the
+.
+filename extension (see cv::imread for the list of extensions). In general, only 8-bit
+.
+single-channel or 3-channel (with 'BGR' channel order) images
+.
+can be saved using this function, with these exceptions:
+. <br>
+.
+- 16-bit unsigned (CV_16U) images can be saved in the case of PNG, JPEG 2000, and TIFF formats
+.
+- 32-bit float (CV_32F) images can be saved in PFM, TIFF, OpenEXR, and Radiance HDR formats;
+.
+3-channel (CV_32FC3) TIFF images will be saved using the LogLuv high dynamic range encoding
+.
+(4 bytes per pixel)
+.
+- PNG images with an alpha channel can be saved using this function. To do this, create
+.
+8-bit (or 16-bit) 4-channel image BGRA, where the alpha channel goes last. Fully transparent pixels
+.
+should have alpha set to 0, fully opaque pixels should have alpha set to 255/65535 (see the code sample below).
+.
+- Multiple images (vector of Mat) can be saved in TIFF format (see the code sample below).
+. <br>
+.
+If the format, depth or channel order is different, use
+.
+Mat::convertTo and cv::cvtColor to convert it before saving. Or, use the universal FileStorage I/O
+.
+functions to save the image to XML or YAML format.
+. <br>
+.
+The sample below shows how to create a BGRA image, how to set custom compression parameters and save it to a PNG file.
+.
+It also demonstrates how to save multiple images in a TIFF file:
+.
+@include snippets/imgcodecs_imwrite.cpp
+.
+@param filename Name of the file.
+.
+@param img (Mat or vector of Mat) Image or Images to be saved.
+.
+@param params Format-specific parameters encoded as pairs (paramId_1, paramValue_1, paramId_2, paramValue_2, &hellip; .) see cv::ImwriteFlags</p></div>
+</dd>
+<dt id="dvt.annotate.resize"><code class="name flex">
+<span>def <span class="ident">resize</span></span>(<span>src, dsize, dst, fx, fy, interpolation)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>resize(src, dsize[, dst[, fx[, fy[, interpolation]]]]) -&gt; dst
+.
+@brief Resizes an image.
+. <br>
+.
+The function resize resizes the image src down to or up to the specified size. Note that the
+.
+initial dst type or size are not taken into account. Instead, the size and type are derived from
+.
+the <code>src</code>,<code>dsize</code>,<code>fx</code>, and <code>fy</code>. If you want to resize src so that it fits the pre-created dst,
+.
+you may call the function as follows:
+.
+@code
+.
+// explicitly specify dsize=dst.size(); fx and fy will be computed from that.
+.
+resize(src, dst, dst.size(), 0, 0, interpolation);
+.
+@endcode
+.
+If you want to decimate the image by factor of 2 in each direction, you can call the function this
+.
+way:
+.
+@code
+.
+// specify fx and fy and let the function compute the destination image size.
+.
+resize(src, dst, Size(), 0.5, 0.5, interpolation);
+.
+@endcode
+.
+To shrink an image, it will generally look best with #INTER_AREA interpolation, whereas to
+.
+enlarge an image, it will generally look best with c#INTER_CUBIC (slow) or #INTER_LINEAR
+.
+(faster but still looks OK).
+. <br>
+.
+@param src input image.
+.
+@param dst output image; it has the size dsize (when it is non-zero) or the size computed from
+.
+src.size(), fx, and fy; the type of dst is the same as of src.
+.
+@param dsize output image size; if it equals zero, it is computed as:
+.
+\f[\texttt{dsize = Size(round(fx<em>src.cols), round(fy</em>src.rows))}\f]
+.
+Either dsize or both fx and fy must be non-zero.
+.
+@param fx scale factor along the horizontal axis; when it equals 0, it is computed as
+.
+\f[\texttt{(double)dsize.width/src.cols}\f]
+.
+@param fy scale factor along the vertical axis; when it equals 0, it is computed as
+.
+\f[\texttt{(double)dsize.height/src.rows}\f]
+.
+@param interpolation interpolation method, see #InterpolationFlags
+. <br>
+.
+@sa
+warpAffine, warpPerspective, remap</p></div>
+</dd>
+</dl>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="dvt.annotate.AverageAnnotator"><code class="flex name class">
+<span>class <span class="ident">AverageAnnotator</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for grabbing</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class AverageAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for grabbing&#34;&#34;&#34;
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the image annotator.
+
+        Args:
+            img (Array)
+
+        Returns:
+            A dictionary containing the average value and saturation of the
+            image.
+        &#34;&#34;&#34;
+        img_hsv = cvtColor(img, COLOR_BGR2HSV)
+        output = {
+            &#34;average&#34;: {
+                &#34;saturation&#34;: [img_hsv[:, :, 1].mean()],
+                &#34;val&#34;: [img_hsv[:, :, 2].mean()],
+            }
+        }
+        return output</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.annotate.AverageAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the batch of frames with the image annotator.</p>
+<h2 id="args">Args</h2>
+<p>img (Array)</p>
+<h2 id="returns">Returns</h2>
+<p>A dictionary containing the average value and saturation of the
+image.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img):
+    &#34;&#34;&#34;Annotate the batch of frames with the image annotator.
+
+    Args:
+        img (Array)
+
+    Returns:
+        A dictionary containing the average value and saturation of the
+        image.
+    &#34;&#34;&#34;
+    img_hsv = cvtColor(img, COLOR_BGR2HSV)
+    output = {
+        &#34;average&#34;: {
+            &#34;saturation&#34;: [img_hsv[:, :, 1].mean()],
+            &#34;val&#34;: [img_hsv[:, :, 2].mean()],
+        }
+    }
+    return output</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt id="dvt.annotate.ImwriteAnnotator"><code class="flex name class">
+<span>class <span class="ident">ImwriteAnnotator</span></span>
+<span>(</span><span>**kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for saving still images from an input.</p>
+<p>The annotate method of this annotator does not return any data. It is
+useful only for its side effects.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class ImwriteAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for saving still images from an input.
+
+    The annotate method of this annotator does not return any data. It is
+    useful only for its side effects.
+    &#34;&#34;&#34;
+
+    def __init__(self, **kwargs):
+        self.output_dir = _check_out_dir(kwargs[&#34;output_dir&#34;])
+        self.size = kwargs.get(&#34;size&#34;, None)
+
+        super().__init__(**kwargs)
+
+    def annotate_image(self, img, **kwargs):
+        &#34;&#34;&#34;Annotate the images.&#34;&#34;&#34;
+        opath = join(self.output_dir, kwargs.get(&#34;fname&#34;, &#34;figure.png&#34;))
+
+        if self.size is not None:
+            scale = img.shape[1] / self.size
+            new_size = (int(img.shape[2] // scale), int(self.size))
+            img_resize = resize(img, new_size)
+            imwrite(filename=opath, img=img_resize)
+        else:
+            imwrite(filename=opath, img=img)</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.annotate.ImwriteAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img, **kwargs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the images.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img, **kwargs):
+    &#34;&#34;&#34;Annotate the images.&#34;&#34;&#34;
+    opath = join(self.output_dir, kwargs.get(&#34;fname&#34;, &#34;figure.png&#34;))
+
+    if self.size is not None:
+        scale = img.shape[1] / self.size
+        new_size = (int(img.shape[2] // scale), int(self.size))
+        img_resize = resize(img, new_size)
+        imwrite(filename=opath, img=img_resize)
+    else:
+        imwrite(filename=opath, img=img)</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt id="dvt.annotate.SizeAnnotator"><code class="flex name class">
+<span>class <span class="ident">SizeAnnotator</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for grabbing metadata about the images in the batch.</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>name</code></strong> :&ensp;<code>str</code></dt>
+<dd>A description of the aggregator. Used as a key in the
+output data.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class SizeAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for grabbing metadata about the images in the batch.
+
+    Attributes:
+        name (str): A description of the aggregator. Used as a key in the
+            output data.
+    &#34;&#34;&#34;
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the image annotator.
+
+        Args:
+            img (Array)
+
+        Returns:
+            A dictionary containing the height and width of the input image.
+        &#34;&#34;&#34;
+        output = {&#34;size&#34;: {&#34;height&#34;: [img.shape[0]], &#34;width&#34;: [img.shape[1]]}}
+        return output</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.annotate.SizeAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the batch of frames with the image annotator.</p>
+<h2 id="args">Args</h2>
+<p>img (Array)</p>
+<h2 id="returns">Returns</h2>
+<p>A dictionary containing the height and width of the input image.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img):
+    &#34;&#34;&#34;Annotate the batch of frames with the image annotator.
+
+    Args:
+        img (Array)
+
+    Returns:
+        A dictionary containing the height and width of the input image.
+    &#34;&#34;&#34;
+    output = {&#34;size&#34;: {&#34;height&#34;: [img.shape[0]], &#34;width&#34;: [img.shape[1]]}}
+    return output</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<header>
+<a class="homelink" rel="home" title="pdoc Home" href="https://www.distantviewing.org/">
+<img src="https://www.distantviewing.org/img/tv.png" alt="" height="50">
+</a>
+</header>
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="dvt" href="index.html">dvt</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="dvt.annotate.cvtColor" href="#dvt.annotate.cvtColor">cvtColor</a></code></li>
+<li><code><a title="dvt.annotate.imwrite" href="#dvt.annotate.imwrite">imwrite</a></code></li>
+<li><code><a title="dvt.annotate.resize" href="#dvt.annotate.resize">resize</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="dvt.annotate.AverageAnnotator" href="#dvt.annotate.AverageAnnotator">AverageAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.annotate.AverageAnnotator.annotate_image" href="#dvt.annotate.AverageAnnotator.annotate_image">annotate_image</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="dvt.annotate.ImwriteAnnotator" href="#dvt.annotate.ImwriteAnnotator">ImwriteAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.annotate.ImwriteAnnotator.annotate_image" href="#dvt.annotate.ImwriteAnnotator.annotate_image">annotate_image</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="dvt.annotate.SizeAnnotator" href="#dvt.annotate.SizeAnnotator">SizeAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.annotate.SizeAnnotator.annotate_image" href="#dvt.annotate.SizeAnnotator.annotate_image">annotate_image</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p><span style="color:#ddd">&#21328;</span></p>
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>

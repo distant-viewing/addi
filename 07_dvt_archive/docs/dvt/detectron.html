@@ -1,0 +1,1302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>dvt.detectron API documentation</title>
+<meta name="description" content="Annotators that require installing keras and tensorflow." />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+<style>.homelink{display:block;font-size:2em;font-weight:bold;color:#555;padding-bottom:.5em;border-bottom:1px solid silver}.homelink:hover{color:inherit}.homelink img{max-width:20%;max-height:5em;margin:auto;margin-bottom:.3em}</style>
+<link rel="canonical" href="https://pdoc3.github.io/pdoc/doc/dvt/detectron.html">
+<link rel="icon" href="https://pdoc3.github.io/pdoc/logo.png">
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>dvt.detectron</code></h1>
+</header>
+<section id="section-intro">
+<p>Annotators that require installing keras and tensorflow.</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python"># -*- coding: utf-8 -*-
+&#34;&#34;&#34;Annotators that require installing keras and tensorflow.
+&#34;&#34;&#34;
+
+from numpy import array, repeat, sum as np_sum, vstack
+from pandas import DataFrame
+
+from .abstract import ImageAnnotator
+
+
+class InstanceAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for detecting instances of objects.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;mask_rcnn_R_50_FPN_3x&#34;, device=&#34;cpu&#34;):
+        mname = &#34;COCO-InstanceSegmentation/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+        if not len(instances):
+            return {&#34;instance&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;class&#34;,
+                &#34;prob&#34;,
+                &#34;x0&#34;,
+                &#34;y0&#34;,
+                &#34;x1&#34;,
+                &#34;y1&#34;
+            ])}
+
+        boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+        scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+        output = {
+            &#34;index&#34;: list(range(len(cls))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;class&#34;: cls,
+            &#34;prob&#34;: scores,
+            &#34;x0&#34;: boxes[:, 0],
+            &#34;y0&#34;: boxes[:, 1],
+            &#34;x1&#34;: boxes[:, 2],
+            &#34;y1&#34;: boxes[:, 3],
+        }
+
+        return {&#34;instance&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_instance_predictions(
+            self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+        )
+        return out.get_image()[:, :, ::-1]
+
+
+class LVISAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for performing Large Vocabulary Instance Segmentation.&#34;&#34;&#34;
+
+    def __init__(
+        self, model_name=&#34;mask_rcnn_X_101_32x8d_FPN_1x&#34;, device=&#34;cpu&#34;
+    ):
+        mname = &#34;LVISv0.5-InstanceSegmentation/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+        if not len(instances):
+            return {&#34;lvis&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;class&#34;,
+                &#34;prob&#34;,
+                &#34;x0&#34;,
+                &#34;y0&#34;,
+                &#34;x1&#34;,
+                &#34;y1&#34;
+            ])}
+
+        boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+        scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+        output = {
+            &#34;index&#34;: list(range(len(cls))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;class&#34;: cls,
+            &#34;prob&#34;: scores,
+            &#34;x0&#34;: boxes[:, 0],
+            &#34;y0&#34;: boxes[:, 1],
+            &#34;x1&#34;: boxes[:, 2],
+            &#34;y1&#34;: boxes[:, 3],
+        }
+
+        return {&#34;lvis&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_instance_predictions(
+            self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+        )
+        return out.get_image()[:, :, ::-1]
+
+
+class CityscapesAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for performing Cityscape Instance Segmentation.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;mask_rcnn_R_50_FPN&#34;, device=&#34;cpu&#34;):
+        mname = &#34;Cityscapes/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+        if not len(instances):
+            return {&#34;cityscape&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;class&#34;,
+                &#34;prob&#34;,
+                &#34;x0&#34;,
+                &#34;y0&#34;,
+                &#34;x1&#34;,
+                &#34;y1&#34;
+            ])}
+
+        boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+        scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+        output = {
+            &#34;index&#34;: list(range(len(cls))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;class&#34;: cls,
+            &#34;prob&#34;: scores,
+            &#34;x0&#34;: boxes[:, 0],
+            &#34;y0&#34;: boxes[:, 1],
+            &#34;x1&#34;: boxes[:, 2],
+            &#34;y1&#34;: boxes[:, 3],
+        }
+
+        return {&#34;cityscape&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_instance_predictions(
+            self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+        )
+        return out.get_image()[:, :, ::-1]
+
+
+class KeypointsAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for detecting human body keypoints.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;keypoint_rcnn_R_50_FPN_3x&#34;, device=&#34;cpu&#34;):
+        mname = &#34;COCO-Keypoints/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+
+        keypoints = instances.get(&#34;pred_keypoints&#34;).cpu().numpy()
+        if not len(keypoints):
+            return {&#34;keypoint&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;kpname&#34;,
+                &#34;x&#34;,
+                &#34;y&#34;,
+                &#34;score&#34;
+            ])}
+
+        keypoints = vstack([x for x in keypoints])
+
+        output = {
+            &#34;index&#34;: repeat(array(range(len(cls))), 17),
+            &#34;kpname&#34;: self.mdata.keypoint_names * len(cls),
+            &#34;x&#34;: keypoints[:, 0],
+            &#34;y&#34;: keypoints[:, 1],
+            &#34;score&#34;: keypoints[:, 2],
+        }
+
+        return {&#34;keypoint&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        keypoints = (
+            self.predictions[&#34;instances&#34;].get(&#34;pred_keypoints&#34;).to(&#34;cpu&#34;)
+        )
+
+        if not len(keypoints):
+            return img
+        for keyp in keypoints:
+            out = viz.draw_and_connect_keypoints(keyp)
+
+        return out.get_image()[:, :, ::-1]
+
+
+class PanopticAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for detecting things and stuff.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;panoptic_fpn_R_50_3x&#34;, device=&#34;cpu&#34;):
+        mname = &#34;COCO-PanopticSegmentation/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        panseg = self.predictions[&#34;panoptic_seg&#34;]
+        if not len(panseg):
+            return {&#34;panoptic&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;score&#34;,
+                &#34;is_thing&#34;,
+                &#34;class&#34;,
+                &#34;area&#34;
+            ])}
+
+        is_thing = [x.get(&#34;isthing&#34;) for x in panseg[1]]
+        score = [x.get(&#34;score&#34;, 0) for x in panseg[1]]
+        category_id = [x.get(&#34;category_id&#34;) for x in panseg[1]]
+        area = [
+            np_sum(panseg[0].cpu().numpy().flatten() == (k + 1))
+            for k in range(len(panseg[1]))
+        ]
+        category_name = []
+        for cat, thing in zip(category_id, is_thing):
+            if thing:
+                category_name += [self.mdata.thing_classes[cat]]
+            else:
+                category_name += [self.mdata.stuff_classes[cat]]
+
+        output = {
+            &#34;index&#34;: list(range(len(category_name))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;score&#34;: score,
+            &#34;is_thing&#34;: is_thing,
+            &#34;class&#34;: category_name,
+            &#34;area&#34;: area,
+        }
+
+        return {&#34;panoptic&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        panoptic_seg, segments_info = self.predictions[&#34;panoptic_seg&#34;]
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_panoptic_seg(panoptic_seg.to(&#34;cpu&#34;), segments_info)
+        return out.get_image()[:, :, ::-1]
+
+
+def _load_detectron_model(mname, device=&#34;cpu&#34;):
+    import ssl
+    from detectron2 import model_zoo
+    from detectron2.config import get_cfg
+    from detectron2.data import MetadataCatalog
+    from detectron2.engine import DefaultPredictor
+
+    ssl._create_default_https_context = ssl._create_unverified_context
+
+    cfg = get_cfg()
+    cfg.merge_from_file(model_zoo.get_config_file(mname))
+    cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5
+    cfg.MODEL.DEVICE = device
+    cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url(mname)
+    predictor = DefaultPredictor(cfg)
+    mdata = MetadataCatalog.get(cfg.DATASETS.TRAIN[0])
+    return predictor, mdata</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="dvt.detectron.CityscapesAnnotator"><code class="flex name class">
+<span>class <span class="ident">CityscapesAnnotator</span></span>
+<span>(</span><span>model_name='mask_rcnn_R_50_FPN', device='cpu')</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for performing Cityscape Instance Segmentation.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class CityscapesAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for performing Cityscape Instance Segmentation.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;mask_rcnn_R_50_FPN&#34;, device=&#34;cpu&#34;):
+        mname = &#34;Cityscapes/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+        if not len(instances):
+            return {&#34;cityscape&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;class&#34;,
+                &#34;prob&#34;,
+                &#34;x0&#34;,
+                &#34;y0&#34;,
+                &#34;x1&#34;,
+                &#34;y1&#34;
+            ])}
+
+        boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+        scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+        output = {
+            &#34;index&#34;: list(range(len(cls))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;class&#34;: cls,
+            &#34;prob&#34;: scores,
+            &#34;x0&#34;: boxes[:, 0],
+            &#34;y0&#34;: boxes[:, 1],
+            &#34;x1&#34;: boxes[:, 2],
+            &#34;y1&#34;: boxes[:, 3],
+        }
+
+        return {&#34;cityscape&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_instance_predictions(
+            self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+        )
+        return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.detectron.CityscapesAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the batch of frames with the annotator.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img):
+    &#34;&#34;&#34;Annotate the batch of frames with the annotator.&#34;&#34;&#34;
+    self.predictions = self.predictor(img)
+    instances = self.predictions[&#34;instances&#34;]
+    if not len(instances):
+        return {&#34;cityscape&#34;: DataFrame(columns = [
+            &#34;index&#34;,
+            &#34;height&#34;,
+            &#34;width&#34;,
+            &#34;class&#34;,
+            &#34;prob&#34;,
+            &#34;x0&#34;,
+            &#34;y0&#34;,
+            &#34;x1&#34;,
+            &#34;y1&#34;
+        ])}
+
+    boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+    cls = [
+        self.mdata.thing_classes[x]
+        for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+    ]
+    scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+    output = {
+        &#34;index&#34;: list(range(len(cls))),
+        &#34;height&#34;: img.shape[0],
+        &#34;width&#34;: img.shape[1],
+        &#34;class&#34;: cls,
+        &#34;prob&#34;: scores,
+        &#34;x0&#34;: boxes[:, 0],
+        &#34;y0&#34;: boxes[:, 1],
+        &#34;x1&#34;: boxes[:, 2],
+        &#34;y1&#34;: boxes[:, 3],
+    }
+
+    return {&#34;cityscape&#34;: output}</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.CityscapesAnnotator.get_last_predictions"><code class="name flex">
+<span>def <span class="ident">get_last_predictions</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get last predictions as a Detectron classed object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_last_predictions(self):
+    &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+    return self.predictions</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.CityscapesAnnotator.visualize_last_predictions"><code class="name flex">
+<span>def <span class="ident">visualize_last_predictions</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return annotated image</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def visualize_last_predictions(self, img):
+    &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+    from detectron2.utils.visualizer import Visualizer
+
+    viz = Visualizer(img[:, :, ::-1], self.mdata)
+    out = viz.draw_instance_predictions(
+        self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+    )
+    return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt id="dvt.detectron.InstanceAnnotator"><code class="flex name class">
+<span>class <span class="ident">InstanceAnnotator</span></span>
+<span>(</span><span>model_name='mask_rcnn_R_50_FPN_3x', device='cpu')</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for detecting instances of objects.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class InstanceAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for detecting instances of objects.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;mask_rcnn_R_50_FPN_3x&#34;, device=&#34;cpu&#34;):
+        mname = &#34;COCO-InstanceSegmentation/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+        if not len(instances):
+            return {&#34;instance&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;class&#34;,
+                &#34;prob&#34;,
+                &#34;x0&#34;,
+                &#34;y0&#34;,
+                &#34;x1&#34;,
+                &#34;y1&#34;
+            ])}
+
+        boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+        scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+        output = {
+            &#34;index&#34;: list(range(len(cls))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;class&#34;: cls,
+            &#34;prob&#34;: scores,
+            &#34;x0&#34;: boxes[:, 0],
+            &#34;y0&#34;: boxes[:, 1],
+            &#34;x1&#34;: boxes[:, 2],
+            &#34;y1&#34;: boxes[:, 3],
+        }
+
+        return {&#34;instance&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_instance_predictions(
+            self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+        )
+        return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.detectron.InstanceAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the batch of frames with the face annotator.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img):
+    &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+    self.predictions = self.predictor(img)
+    instances = self.predictions[&#34;instances&#34;]
+    if not len(instances):
+        return {&#34;instance&#34;: DataFrame(columns = [
+            &#34;index&#34;,
+            &#34;height&#34;,
+            &#34;width&#34;,
+            &#34;class&#34;,
+            &#34;prob&#34;,
+            &#34;x0&#34;,
+            &#34;y0&#34;,
+            &#34;x1&#34;,
+            &#34;y1&#34;
+        ])}
+
+    boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+    cls = [
+        self.mdata.thing_classes[x]
+        for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+    ]
+    scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+    output = {
+        &#34;index&#34;: list(range(len(cls))),
+        &#34;height&#34;: img.shape[0],
+        &#34;width&#34;: img.shape[1],
+        &#34;class&#34;: cls,
+        &#34;prob&#34;: scores,
+        &#34;x0&#34;: boxes[:, 0],
+        &#34;y0&#34;: boxes[:, 1],
+        &#34;x1&#34;: boxes[:, 2],
+        &#34;y1&#34;: boxes[:, 3],
+    }
+
+    return {&#34;instance&#34;: output}</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.InstanceAnnotator.get_last_predictions"><code class="name flex">
+<span>def <span class="ident">get_last_predictions</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get last predictions as a Detectron classed object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_last_predictions(self):
+    &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+    return self.predictions</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.InstanceAnnotator.visualize_last_predictions"><code class="name flex">
+<span>def <span class="ident">visualize_last_predictions</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return annotated image</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def visualize_last_predictions(self, img):
+    &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+    from detectron2.utils.visualizer import Visualizer
+
+    viz = Visualizer(img[:, :, ::-1], self.mdata)
+    out = viz.draw_instance_predictions(
+        self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+    )
+    return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt id="dvt.detectron.KeypointsAnnotator"><code class="flex name class">
+<span>class <span class="ident">KeypointsAnnotator</span></span>
+<span>(</span><span>model_name='keypoint_rcnn_R_50_FPN_3x', device='cpu')</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for detecting human body keypoints.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class KeypointsAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for detecting human body keypoints.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;keypoint_rcnn_R_50_FPN_3x&#34;, device=&#34;cpu&#34;):
+        mname = &#34;COCO-Keypoints/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+
+        keypoints = instances.get(&#34;pred_keypoints&#34;).cpu().numpy()
+        if not len(keypoints):
+            return {&#34;keypoint&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;kpname&#34;,
+                &#34;x&#34;,
+                &#34;y&#34;,
+                &#34;score&#34;
+            ])}
+
+        keypoints = vstack([x for x in keypoints])
+
+        output = {
+            &#34;index&#34;: repeat(array(range(len(cls))), 17),
+            &#34;kpname&#34;: self.mdata.keypoint_names * len(cls),
+            &#34;x&#34;: keypoints[:, 0],
+            &#34;y&#34;: keypoints[:, 1],
+            &#34;score&#34;: keypoints[:, 2],
+        }
+
+        return {&#34;keypoint&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        keypoints = (
+            self.predictions[&#34;instances&#34;].get(&#34;pred_keypoints&#34;).to(&#34;cpu&#34;)
+        )
+
+        if not len(keypoints):
+            return img
+        for keyp in keypoints:
+            out = viz.draw_and_connect_keypoints(keyp)
+
+        return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.detectron.KeypointsAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the batch of frames with the face annotator.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img):
+    &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+    self.predictions = self.predictor(img)
+    instances = self.predictions[&#34;instances&#34;]
+
+    cls = [
+        self.mdata.thing_classes[x]
+        for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+    ]
+
+    keypoints = instances.get(&#34;pred_keypoints&#34;).cpu().numpy()
+    if not len(keypoints):
+        return {&#34;keypoint&#34;: DataFrame(columns = [
+            &#34;index&#34;,
+            &#34;kpname&#34;,
+            &#34;x&#34;,
+            &#34;y&#34;,
+            &#34;score&#34;
+        ])}
+
+    keypoints = vstack([x for x in keypoints])
+
+    output = {
+        &#34;index&#34;: repeat(array(range(len(cls))), 17),
+        &#34;kpname&#34;: self.mdata.keypoint_names * len(cls),
+        &#34;x&#34;: keypoints[:, 0],
+        &#34;y&#34;: keypoints[:, 1],
+        &#34;score&#34;: keypoints[:, 2],
+    }
+
+    return {&#34;keypoint&#34;: output}</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.KeypointsAnnotator.get_last_predictions"><code class="name flex">
+<span>def <span class="ident">get_last_predictions</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get last predictions as a Detectron classed object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_last_predictions(self):
+    &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+    return self.predictions</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.KeypointsAnnotator.visualize_last_predictions"><code class="name flex">
+<span>def <span class="ident">visualize_last_predictions</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return annotated image</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def visualize_last_predictions(self, img):
+    &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+    from detectron2.utils.visualizer import Visualizer
+
+    viz = Visualizer(img[:, :, ::-1], self.mdata)
+    keypoints = (
+        self.predictions[&#34;instances&#34;].get(&#34;pred_keypoints&#34;).to(&#34;cpu&#34;)
+    )
+
+    if not len(keypoints):
+        return img
+    for keyp in keypoints:
+        out = viz.draw_and_connect_keypoints(keyp)
+
+    return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt id="dvt.detectron.LVISAnnotator"><code class="flex name class">
+<span>class <span class="ident">LVISAnnotator</span></span>
+<span>(</span><span>model_name='mask_rcnn_X_101_32x8d_FPN_1x', device='cpu')</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for performing Large Vocabulary Instance Segmentation.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class LVISAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for performing Large Vocabulary Instance Segmentation.&#34;&#34;&#34;
+
+    def __init__(
+        self, model_name=&#34;mask_rcnn_X_101_32x8d_FPN_1x&#34;, device=&#34;cpu&#34;
+    ):
+        mname = &#34;LVISv0.5-InstanceSegmentation/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        instances = self.predictions[&#34;instances&#34;]
+        if not len(instances):
+            return {&#34;lvis&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;class&#34;,
+                &#34;prob&#34;,
+                &#34;x0&#34;,
+                &#34;y0&#34;,
+                &#34;x1&#34;,
+                &#34;y1&#34;
+            ])}
+
+        boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+        cls = [
+            self.mdata.thing_classes[x]
+            for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+        ]
+        scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+        output = {
+            &#34;index&#34;: list(range(len(cls))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;class&#34;: cls,
+            &#34;prob&#34;: scores,
+            &#34;x0&#34;: boxes[:, 0],
+            &#34;y0&#34;: boxes[:, 1],
+            &#34;x1&#34;: boxes[:, 2],
+            &#34;y1&#34;: boxes[:, 3],
+        }
+
+        return {&#34;lvis&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_instance_predictions(
+            self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+        )
+        return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.detectron.LVISAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the batch of frames with the annotator.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img):
+    &#34;&#34;&#34;Annotate the batch of frames with the annotator.&#34;&#34;&#34;
+    self.predictions = self.predictor(img)
+    instances = self.predictions[&#34;instances&#34;]
+    if not len(instances):
+        return {&#34;lvis&#34;: DataFrame(columns = [
+            &#34;index&#34;,
+            &#34;height&#34;,
+            &#34;width&#34;,
+            &#34;class&#34;,
+            &#34;prob&#34;,
+            &#34;x0&#34;,
+            &#34;y0&#34;,
+            &#34;x1&#34;,
+            &#34;y1&#34;
+        ])}
+
+    boxes = instances.get(&#34;pred_boxes&#34;).tensor.cpu().numpy()
+    cls = [
+        self.mdata.thing_classes[x]
+        for x in instances.get(&#34;pred_classes&#34;).cpu().numpy()
+    ]
+    scores = instances.get(&#34;scores&#34;).cpu().numpy()
+
+    output = {
+        &#34;index&#34;: list(range(len(cls))),
+        &#34;height&#34;: img.shape[0],
+        &#34;width&#34;: img.shape[1],
+        &#34;class&#34;: cls,
+        &#34;prob&#34;: scores,
+        &#34;x0&#34;: boxes[:, 0],
+        &#34;y0&#34;: boxes[:, 1],
+        &#34;x1&#34;: boxes[:, 2],
+        &#34;y1&#34;: boxes[:, 3],
+    }
+
+    return {&#34;lvis&#34;: output}</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.LVISAnnotator.get_last_predictions"><code class="name flex">
+<span>def <span class="ident">get_last_predictions</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get last predictions as a Detectron classed object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_last_predictions(self):
+    &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+    return self.predictions</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.LVISAnnotator.visualize_last_predictions"><code class="name flex">
+<span>def <span class="ident">visualize_last_predictions</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return annotated image</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def visualize_last_predictions(self, img):
+    &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+    from detectron2.utils.visualizer import Visualizer
+
+    viz = Visualizer(img[:, :, ::-1], self.mdata)
+    out = viz.draw_instance_predictions(
+        self.predictions[&#34;instances&#34;].to(&#34;cpu&#34;)
+    )
+    return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+<dt id="dvt.detectron.PanopticAnnotator"><code class="flex name class">
+<span>class <span class="ident">PanopticAnnotator</span></span>
+<span>(</span><span>model_name='panoptic_fpn_R_50_3x', device='cpu')</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotator for detecting things and stuff.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class PanopticAnnotator(ImageAnnotator):
+    &#34;&#34;&#34;Annotator for detecting things and stuff.&#34;&#34;&#34;
+
+    def __init__(self, model_name=&#34;panoptic_fpn_R_50_3x&#34;, device=&#34;cpu&#34;):
+        mname = &#34;COCO-PanopticSegmentation/&#34; + model_name + &#34;.yaml&#34;
+        self.predictor, self.mdata = _load_detectron_model(mname, device)
+        self.predictions = None
+
+    def annotate_image(self, img):
+        &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+        self.predictions = self.predictor(img)
+        panseg = self.predictions[&#34;panoptic_seg&#34;]
+        if not len(panseg):
+            return {&#34;panoptic&#34;: DataFrame(columns = [
+                &#34;index&#34;,
+                &#34;height&#34;,
+                &#34;width&#34;,
+                &#34;score&#34;,
+                &#34;is_thing&#34;,
+                &#34;class&#34;,
+                &#34;area&#34;
+            ])}
+
+        is_thing = [x.get(&#34;isthing&#34;) for x in panseg[1]]
+        score = [x.get(&#34;score&#34;, 0) for x in panseg[1]]
+        category_id = [x.get(&#34;category_id&#34;) for x in panseg[1]]
+        area = [
+            np_sum(panseg[0].cpu().numpy().flatten() == (k + 1))
+            for k in range(len(panseg[1]))
+        ]
+        category_name = []
+        for cat, thing in zip(category_id, is_thing):
+            if thing:
+                category_name += [self.mdata.thing_classes[cat]]
+            else:
+                category_name += [self.mdata.stuff_classes[cat]]
+
+        output = {
+            &#34;index&#34;: list(range(len(category_name))),
+            &#34;height&#34;: img.shape[0],
+            &#34;width&#34;: img.shape[1],
+            &#34;score&#34;: score,
+            &#34;is_thing&#34;: is_thing,
+            &#34;class&#34;: category_name,
+            &#34;area&#34;: area,
+        }
+
+        return {&#34;panoptic&#34;: output}
+
+    def get_last_predictions(self):
+        &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+        return self.predictions
+
+    def visualize_last_predictions(self, img):
+        &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+        from detectron2.utils.visualizer import Visualizer
+
+        panoptic_seg, segments_info = self.predictions[&#34;panoptic_seg&#34;]
+        viz = Visualizer(img[:, :, ::-1], self.mdata)
+        out = viz.draw_panoptic_seg(panoptic_seg.to(&#34;cpu&#34;), segments_info)
+        return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></li>
+<li>abc.ABC</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="dvt.detectron.PanopticAnnotator.annotate_image"><code class="name flex">
+<span>def <span class="ident">annotate_image</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Annotate the batch of frames with the face annotator.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def annotate_image(self, img):
+    &#34;&#34;&#34;Annotate the batch of frames with the face annotator.&#34;&#34;&#34;
+    self.predictions = self.predictor(img)
+    panseg = self.predictions[&#34;panoptic_seg&#34;]
+    if not len(panseg):
+        return {&#34;panoptic&#34;: DataFrame(columns = [
+            &#34;index&#34;,
+            &#34;height&#34;,
+            &#34;width&#34;,
+            &#34;score&#34;,
+            &#34;is_thing&#34;,
+            &#34;class&#34;,
+            &#34;area&#34;
+        ])}
+
+    is_thing = [x.get(&#34;isthing&#34;) for x in panseg[1]]
+    score = [x.get(&#34;score&#34;, 0) for x in panseg[1]]
+    category_id = [x.get(&#34;category_id&#34;) for x in panseg[1]]
+    area = [
+        np_sum(panseg[0].cpu().numpy().flatten() == (k + 1))
+        for k in range(len(panseg[1]))
+    ]
+    category_name = []
+    for cat, thing in zip(category_id, is_thing):
+        if thing:
+            category_name += [self.mdata.thing_classes[cat]]
+        else:
+            category_name += [self.mdata.stuff_classes[cat]]
+
+    output = {
+        &#34;index&#34;: list(range(len(category_name))),
+        &#34;height&#34;: img.shape[0],
+        &#34;width&#34;: img.shape[1],
+        &#34;score&#34;: score,
+        &#34;is_thing&#34;: is_thing,
+        &#34;class&#34;: category_name,
+        &#34;area&#34;: area,
+    }
+
+    return {&#34;panoptic&#34;: output}</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.PanopticAnnotator.get_last_predictions"><code class="name flex">
+<span>def <span class="ident">get_last_predictions</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get last predictions as a Detectron classed object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_last_predictions(self):
+    &#34;&#34;&#34;Get last predictions as a Detectron classed object.&#34;&#34;&#34;
+    return self.predictions</code></pre>
+</details>
+</dd>
+<dt id="dvt.detectron.PanopticAnnotator.visualize_last_predictions"><code class="name flex">
+<span>def <span class="ident">visualize_last_predictions</span></span>(<span>self, img)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return annotated image</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def visualize_last_predictions(self, img):
+    &#34;&#34;&#34;Return annotated image&#34;&#34;&#34;
+    from detectron2.utils.visualizer import Visualizer
+
+    panoptic_seg, segments_info = self.predictions[&#34;panoptic_seg&#34;]
+    viz = Visualizer(img[:, :, ::-1], self.mdata)
+    out = viz.draw_panoptic_seg(panoptic_seg.to(&#34;cpu&#34;), segments_info)
+    return out.get_image()[:, :, ::-1]</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="dvt.abstract.ImageAnnotator" href="abstract.html#dvt.abstract.ImageAnnotator">ImageAnnotator</a></b></code>:
+<ul class="hlist">
+<li><code><a title="dvt.abstract.ImageAnnotator.annotate" href="abstract.html#dvt.abstract.ImageAnnotator.annotate">annotate</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<header>
+<a class="homelink" rel="home" title="pdoc Home" href="https://www.distantviewing.org/">
+<img src="https://www.distantviewing.org/img/tv.png" alt="" height="50">
+</a>
+</header>
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="dvt" href="index.html">dvt</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="dvt.detectron.CityscapesAnnotator" href="#dvt.detectron.CityscapesAnnotator">CityscapesAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.detectron.CityscapesAnnotator.annotate_image" href="#dvt.detectron.CityscapesAnnotator.annotate_image">annotate_image</a></code></li>
+<li><code><a title="dvt.detectron.CityscapesAnnotator.get_last_predictions" href="#dvt.detectron.CityscapesAnnotator.get_last_predictions">get_last_predictions</a></code></li>
+<li><code><a title="dvt.detectron.CityscapesAnnotator.visualize_last_predictions" href="#dvt.detectron.CityscapesAnnotator.visualize_last_predictions">visualize_last_predictions</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="dvt.detectron.InstanceAnnotator" href="#dvt.detectron.InstanceAnnotator">InstanceAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.detectron.InstanceAnnotator.annotate_image" href="#dvt.detectron.InstanceAnnotator.annotate_image">annotate_image</a></code></li>
+<li><code><a title="dvt.detectron.InstanceAnnotator.get_last_predictions" href="#dvt.detectron.InstanceAnnotator.get_last_predictions">get_last_predictions</a></code></li>
+<li><code><a title="dvt.detectron.InstanceAnnotator.visualize_last_predictions" href="#dvt.detectron.InstanceAnnotator.visualize_last_predictions">visualize_last_predictions</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="dvt.detectron.KeypointsAnnotator" href="#dvt.detectron.KeypointsAnnotator">KeypointsAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.detectron.KeypointsAnnotator.annotate_image" href="#dvt.detectron.KeypointsAnnotator.annotate_image">annotate_image</a></code></li>
+<li><code><a title="dvt.detectron.KeypointsAnnotator.get_last_predictions" href="#dvt.detectron.KeypointsAnnotator.get_last_predictions">get_last_predictions</a></code></li>
+<li><code><a title="dvt.detectron.KeypointsAnnotator.visualize_last_predictions" href="#dvt.detectron.KeypointsAnnotator.visualize_last_predictions">visualize_last_predictions</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="dvt.detectron.LVISAnnotator" href="#dvt.detectron.LVISAnnotator">LVISAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.detectron.LVISAnnotator.annotate_image" href="#dvt.detectron.LVISAnnotator.annotate_image">annotate_image</a></code></li>
+<li><code><a title="dvt.detectron.LVISAnnotator.get_last_predictions" href="#dvt.detectron.LVISAnnotator.get_last_predictions">get_last_predictions</a></code></li>
+<li><code><a title="dvt.detectron.LVISAnnotator.visualize_last_predictions" href="#dvt.detectron.LVISAnnotator.visualize_last_predictions">visualize_last_predictions</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="dvt.detectron.PanopticAnnotator" href="#dvt.detectron.PanopticAnnotator">PanopticAnnotator</a></code></h4>
+<ul class="">
+<li><code><a title="dvt.detectron.PanopticAnnotator.annotate_image" href="#dvt.detectron.PanopticAnnotator.annotate_image">annotate_image</a></code></li>
+<li><code><a title="dvt.detectron.PanopticAnnotator.get_last_predictions" href="#dvt.detectron.PanopticAnnotator.get_last_predictions">get_last_predictions</a></code></li>
+<li><code><a title="dvt.detectron.PanopticAnnotator.visualize_last_predictions" href="#dvt.detectron.PanopticAnnotator.visualize_last_predictions">visualize_last_predictions</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p><span style="color:#ddd">&#21328;</span></p>
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>
