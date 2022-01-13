@@ -1,0 +1,18 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Serif', serif;
+  color: #3c3836;
+  font-size: 10pt;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #7c6f64;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #cb4b16;
+}

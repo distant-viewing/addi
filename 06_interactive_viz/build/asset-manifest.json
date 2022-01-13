@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/addi/06_interactive_viz/build/static/css/main.d1f4b111.chunk.css",
+    "main.js": "/addi/06_interactive_viz/build/static/js/main.ca510543.chunk.js",
+    "main.js.map": "/addi/06_interactive_viz/build/static/js/main.ca510543.chunk.js.map",
+    "runtime-main.js": "/addi/06_interactive_viz/build/static/js/runtime-main.baaa6751.js",
+    "runtime-main.js.map": "/addi/06_interactive_viz/build/static/js/runtime-main.baaa6751.js.map",
+    "static/js/2.1b29e2dd.chunk.js": "/addi/06_interactive_viz/build/static/js/2.1b29e2dd.chunk.js",
+    "static/js/2.1b29e2dd.chunk.js.map": "/addi/06_interactive_viz/build/static/js/2.1b29e2dd.chunk.js.map",
+    "static/js/3.f1b89b00.chunk.js": "/addi/06_interactive_viz/build/static/js/3.f1b89b00.chunk.js",
+    "static/js/3.f1b89b00.chunk.js.map": "/addi/06_interactive_viz/build/static/js/3.f1b89b00.chunk.js.map",
+    "index.html": "/addi/06_interactive_viz/build/index.html",
+    "static/css/main.d1f4b111.chunk.css.map": "/addi/06_interactive_viz/build/static/css/main.d1f4b111.chunk.css.map",
+    "static/js/2.1b29e2dd.chunk.js.LICENSE.txt": "/addi/06_interactive_viz/build/static/js/2.1b29e2dd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baaa6751.js",
+    "static/js/2.1b29e2dd.chunk.js",
+    "static/css/main.d1f4b111.chunk.css",
+    "static/js/main.ca510543.chunk.js"
+  ]
+}
