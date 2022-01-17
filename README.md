@@ -55,3 +55,8 @@ For questions, please contact the directors of the Distant Viewing Lab: Taylor A
 (tarnold2@richmond.edu) and Lauren Tilton (ltilton@richmond.edu). Note that this repository
 is for archival purposes and will not be regularly updated. For active development on the
 Distant Viewing Toolkit see its [dedicated GitHub repository](https://github.com/distant-viewing/dvt).
+
+## Acknowledgements
+We are grateful to the Library of Congress and LC Labs for the opportunity to be a part of this innovative initiative. Thank you to the teams across LoC that met with us and graciously shared their knowledge and expertise. In particular, the Prints & Photographs Division team took significant time to guide us through their collections and histories of digitization, which was invaluable knowledge that shaped ADDI. This project is only possible because of the library's pioneering work to collect, preserve, and digitize photographs. Thank you as well to Meghan Ferriter, Alice Goldfarb, and Olivia Dorsey for meeting with Lauren bi-weekly to share ideas, ask questions, and collaboratively learn. There is extensive hidden labor in keeping an initiative like this on track, and Jaime Mears kindly helped us navigate the process. Finally, thank you to our fellow researchers in-residence. Along with their exciting projects, Lincoln Mullen’s always astute assessments of the state of the field and Andromeda Yelton's careful and critical use of machine learning helped us think bigger and broader about the impact of this initiative. Thank you to everyone involved for letting us be a part of a culture committed to collaboration, openness, experimentation, innovation, and most importantly, support and kindness. 
+
+
