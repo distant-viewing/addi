@@ -32,6 +32,11 @@ at:
 - [FSA-OWI Color Images](https://distant-viewing.github.io/addi/06_interactive_viz/build/?id=2017877547).
 - [Bain Collection](https://distant-viewing.github.io/addi/06_interactive_viz/build/?id=2014712029).
 
+Versions of the two papers can be viewed online here:
+
+- [Methods Paper](https://raw.githubusercontent.com/distant-viewing/addi/main/03_methods_paper/methods_paper.pdf)
+- [Data Analysis Paper](https://raw.githubusercontent.com/distant-viewing/addi/main/04_data_analysis_paper/data_analysis_paper_lowres.pdf)
+
 ## Licence
 
 The methods and data analysis papers are released under the Creative Commons
