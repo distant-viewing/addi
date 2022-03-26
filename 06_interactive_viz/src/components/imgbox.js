@@ -210,7 +210,7 @@ class ImgBox extends React.Component {
           <p className="mboxabout">This interactive vizaliation is part of the ADDI project, which was designed to
           adapt and apply computer vision algorithms to aid in the discovery and use of digital collections,
           specifically documentary photography collections held by the Library of Congress.</p>
-          <p className="mboxabout">For more information, see the project's <a href="https://github.com/statsmaths/addi_project" target="_blank" rel="noopener noreferrer">main page</a>.</p>
+          <p className="mboxabout">For more information, see the project's <a href="https://github.com/distant-viewing/addi" target="_blank" rel="noopener noreferrer">main page</a>.</p>
         </div>
       </div>
       <div className="ibox">
