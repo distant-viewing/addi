@@ -3,6 +3,7 @@ library(xml2)
 library(stringi)
 
 dir.create(file.path("inter", "web"), FALSE)
+dir.create(file.path("inter", "web"), FALSE)
 dir.create(file.path("inter", "web", "index"), FALSE)
 
 ##############################################################################
